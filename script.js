@@ -1,43 +1,54 @@
-const button = document.getElementById('actionButton');
+const popeResults = document.getElementById('popeResults');
+const pagerStatus = document.getElementById('pagerStatus');
+const searchInput = document.getElementById('searchInput');
+const totalPages = popeData ? popeData.length : 0;
 
-button.addEventListener('click', () => {
-  const message = document.createElement('div');
-  message.className = 'toast';
-  message.textContent = 'Great! Your website is ready to customize.';
-  document.body.appendChild(message);
+function renderPopes(filterText = '') {
+  if (!popeResults || typeof popeData === 'undefined') return;
 
-  setTimeout(() => {
-    message.classList.add('visible');
-  }, 10);
+  const query = filterText.trim().toLowerCase();
+  const filteredPopes = query
+    ? popeData.filter((pope) => {
+        return (
+          pope.name.toLowerCase().includes(query) ||
+          pope.reign.toLowerCase().includes(query) ||
+          pope.story.toLowerCase().includes(query) ||
+          String(pope.id).includes(query)
+        );
+      })
+    : popeData;
 
-  setTimeout(() => {
-    message.classList.remove('visible');
-    setTimeout(() => {
-      document.body.removeChild(message);
-    }, 300);
-  }, 2500);
-});
+  if (!filteredPopes.length) {
+    popeResults.innerHTML = '<p class="no-results">لم يتم العثور على بطريرك مطابق.</p>';
+    if (pagerStatus) pagerStatus.textContent = `0 / ${totalPages}`;
+    return;
+  }
 
-// Add toast styles dynamically so the file remains simple.
-const style = document.createElement('style');
-style.textContent = `
-.toast {
-  position: fixed;
-  bottom: 1.5rem;
-  left: 50%;
-  transform: translateX(-50%) translateY(1rem);
-  background: rgba(15, 23, 42, 0.95);
-  color: white;
-  padding: 0.9rem 1.4rem;
-  border-radius: 999px;
-  opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  pointer-events: none;
-  z-index: 1000;
+  popeResults.innerHTML = filteredPopes
+    .map(
+      (pope) => `
+    <article class="pope-card">
+      <img src="${pope.image}" alt="${pope.name}" />
+      <h3>${pope.id}. ${pope.name}</h3>
+      <p class="pope-meta">المدة: ${pope.reign}</p>
+      <p>الميلاد: ${pope.birth}</p>
+      <p>${pope.story}</p>
+      ${pope.source ? `<p class="pope-site">مصدر خارجي: <a href="${pope.source}" target="_blank" rel="noopener">عرض السيرة الحقيقية</a></p>` : ''}
+      <a class="detail-link" href="details.html?id=${pope.id}">قراءة السيرة كاملة</a>
+    </article>
+  `
+    )
+    .join('');
+
+  if (pagerStatus) {
+    pagerStatus.textContent = `${filteredPopes.length} / ${totalPages}`;
+  }
 }
-.toast.visible {
-  opacity: 1;
-  transform: translateX(-50%) translateY(0);
+
+if (popeResults) {
+  renderPopes();
 }
-`;
-document.head.appendChild(style);
+
+if (searchInput) {
+  searchInput.addEventListener('input', (event) => renderPopes(event.target.value));
+}

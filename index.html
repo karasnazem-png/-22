@@ -12,7 +12,7 @@
       <p class="eyebrow">تاريخ البطاركة</p>
       <h1>باباوات الإسكندرية وبطاركة الكرازة المرقسية</h1>
       <p class="hero-copy">موقع يقدم معلومات عن تاريخ البطاركة الأقباط، عددهم، وترتيبهم التاريخي مع بطاقات تحتوي على صورة خلفية لكل قسم.</p>
-      <button id="actionButton">اضغط هنا</button>
+      <a class="hero-link" href="#historySection">ابدأ التصفح</a>
     </div>
   </header>
 
@@ -58,12 +58,32 @@
         </div>
       </article>
     </section>
+
+    <section id="historySection" class="history-section">
+      <div class="history-intro">
+        <p class="eyebrow">لماذا هذا المشروع؟</p>
+        <h2>معلومات مبسطة عن أوائل البطاركة</h2>
+        <p>هذا المشروع يهدف إلى تسهيل الوصول إلى تاريخ الكنيسة القبطية بطريقة واضحة ومريحة للطلاب والمهتمين بالتراث المسيحي.</p>
+      </div>
+
+      <div class="search-bar">
+        <label for="searchInput">ابحث عن بطريرك</label>
+        <input id="searchInput" class="search-input" type="search" placeholder="اكتب اسم البابا أو رقم التسلسل..." />
+      </div>
+
+      <div class="list-status">
+        <div id="pagerStatus" class="pager-status">0 / 0</div>
+      </div>
+
+      <div id="popeResults" class="pope-results" aria-live="polite"></div>
+    </section>
   </main>
 
   <footer>
-    <p>موقع تعريفي مبني باستخدام HTML و CSS و JavaScript في مساحة العمل <strong>-22</strong>.</p>
+    <p>موقع تعريفي مبني باستخدام HTML و CSS و JavaScript في مساحة العمل <strong>-22</strong>. | <a href="https://github.com/karasnazem-png/-22" target="_blank" rel="noopener">GitHub: karasnazem-png/-22</a></p>
   </footer>
 
+  <script src="pope-data.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
