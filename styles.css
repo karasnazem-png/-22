@@ -633,3 +633,53 @@ footer a {
   80% { transform: rotateX(1620deg) rotateY(1260deg); }
   100% { transform: rotateX(1800deg) rotateY(1440deg); }
 }
+
+/* More-info modal (Wikipedia/Wikidata content) */
+.more-info-modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100000;
+}
+.more-info-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(2,6,23,0.6);
+}
+.more-info-panel {
+  position: relative;
+  z-index: 100001;
+  width: min(980px, calc(100% - 2rem));
+  max-height: calc(100% - 4rem);
+  overflow: auto;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 30px 90px rgba(2,6,23,0.5);
+  direction: rtl;
+}
+.more-info-content {
+  color: #0f172a;
+  line-height: 1.6;
+}
+.more-info-content h2 { margin-top: 0; color: #1e3a8a; }
+.more-info-image { width: 220px; height: auto; float: left; margin-left: 1rem; margin-bottom: 0.6rem; border-radius: 8px; }
+.more-info-extract { margin-bottom: 0.8rem; font-weight: 700; color: #334155; }
+.more-info-full { color: #475569; }
+.more-info-close {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: transparent;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #334155;
+}
+.more-info-panel a { color: #2563eb; }
+@media (max-width: 800px) {
+  .more-info-image { width: 100%; float: none; margin: 0 0 0.8rem 0; }
+  .more-info-panel { padding: 0.9rem; }
+}

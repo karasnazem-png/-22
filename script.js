@@ -63,7 +63,10 @@ function renderPopes(filterText = '') {
         <p>الميلاد: ${pope.birth}</p>
         <p>${pope.story}</p>
         ${pope.source ? `<p class="pope-site">مصدر خارجي: <a href="${pope.source}" target="_blank" rel="noopener">عرض السيرة الحقيقية</a></p>` : ''}
-        <a class="detail-link" href="details.html?id=${pope.id}">قراءة السيرة كاملة</a>
+        <div class="pope-actions">
+          <a class="detail-link" href="details.html?id=${pope.id}">قراءة السيرة كاملة</a>
+          <button class="more-info-button" data-title="${pope.name}">مزيد من المعلومات</button>
+        </div>
       </div>
     </article>
   `
@@ -216,6 +219,95 @@ if (sortToggleButton) {
     renderPopes(searchInput ? searchInput.value : '');
   });
 }
+
+// Wikipedia/Wikidata "More info" modal and fetch helpers
+function createMoreInfoModal() {
+  if (document.getElementById('moreInfoModal')) return;
+  const modal = document.createElement('div');
+  modal.id = 'moreInfoModal';
+  modal.className = 'more-info-modal';
+  modal.innerHTML = `
+    <div class="more-info-backdrop">
+      <div class="more-info-panel">
+        <button class="more-info-close" aria-label="Close">×</button>
+        <div class="more-info-content">جاري التحميل...</div>
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+
+  const close = modal.querySelector('.more-info-close');
+  close.addEventListener('click', () => { if (modal && modal.parentNode) modal.parentNode.removeChild(modal); });
+  // click outside to close
+  modal.addEventListener('click', (ev) => { if (ev.target === modal) { if (modal && modal.parentNode) modal.parentNode.removeChild(modal); } });
+}
+
+async function fetchWikipediaData(title) {
+  const safe = encodeURIComponent(String(title).replace(/ /g, '_'));
+  const summaryUrl = `https://en.wikipedia.org/api/rest_v1/page/summary/${safe}`;
+  const sectionsUrl = `https://en.wikipedia.org/api/rest_v1/page/mobile-sections/${safe}`;
+
+  const [summaryResp, sectionsResp] = await Promise.allSettled([
+    fetch(summaryUrl),
+    fetch(sectionsUrl)
+  ]);
+
+  let summary = null;
+  let sections = null;
+  try {
+    if (summaryResp.status === 'fulfilled' && summaryResp.value.ok) summary = await summaryResp.value.json();
+  } catch (e) { summary = null; }
+  try {
+    if (sectionsResp.status === 'fulfilled' && sectionsResp.value.ok) sections = await sectionsResp.value.json();
+  } catch (e) { sections = null; }
+
+  return { summary, sections };
+}
+
+async function showMoreInfo(title) {
+  createMoreInfoModal();
+  const modal = document.getElementById('moreInfoModal');
+  if (!modal) return;
+  const contentEl = modal.querySelector('.more-info-content');
+  contentEl.innerHTML = '<p>جاري التحميل...</p>';
+
+  try {
+    const { summary, sections } = await fetchWikipediaData(title);
+    if (!summary && !sections) {
+      contentEl.innerHTML = '<p>لم أتمكن من العثور على معلومات إضافية على ويكيبيديا لهذا الاسم.</p>';
+      return;
+    }
+
+    const pageTitle = (summary && summary.title) || title;
+    const pageUrl = (summary && summary.content_urls && summary.content_urls.desktop && summary.content_urls.desktop.page) || `https://en.wikipedia.org/wiki/${encodeURIComponent(String(title).replace(/ /g, '_'))}`;
+    const image = (summary && (summary.originalimage || summary.thumbnail) && (summary.originalimage || summary.thumbnail).source) || '';
+    const extractHtml = (summary && (summary.extract_html || `<p>${(summary.extract || '').replace(/\n/g, '<br/>')}</p>`)) || '';
+
+    let fullHtml = `<h2>${pageTitle}</h2>`;
+    if (image) fullHtml += `<img class="more-info-image" src="${image}" alt="${pageTitle}"/>`;
+    if (extractHtml) fullHtml += `<div class="more-info-extract">${extractHtml}</div>`;
+
+    if (sections && (sections.lead || sections.remaining)) {
+      const leadHtml = (sections.lead && Array.isArray(sections.lead.sections) && sections.lead.sections.map(s=>s.text).join('')) || '';
+      const remHtml = (sections.remaining && Array.isArray(sections.remaining.sections) && sections.remaining.sections.map(s=>s.text).join('')) || '';
+      if (leadHtml || remHtml) fullHtml += `<div class="more-info-full">${leadHtml}${remHtml}</div>`;
+    }
+
+    fullHtml += `<p class="pope-site">المصدر: <a href="${pageUrl}" target="_blank" rel="noopener">صفحة ويكيبيديا</a></p>`;
+    contentEl.innerHTML = fullHtml;
+  } catch (err) {
+    contentEl.innerHTML = `<p>حدث خطأ أثناء جلب المعلومات: ${err && err.message ? err.message : String(err)}</p>`;
+  }
+}
+
+// delegate click handler for more-info buttons
+document.addEventListener('click', (ev) => {
+  const btn = ev.target.closest && ev.target.closest('.more-info-button');
+  if (btn) {
+    const t = btn.dataset.title || btn.getAttribute('data-title') || btn.textContent || '';
+    showMoreInfo(t);
+  }
+});
 
 // Setup animated ripples and press feedback for all interactive buttons/links
 (function setupButtonAnimations() {
