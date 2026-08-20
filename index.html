@@ -66,9 +66,27 @@
         <p>هذا المشروع يهدف إلى تسهيل الوصول إلى تاريخ الكنيسة القبطية بطريقة واضحة ومريحة للطلاب والمهتمين بالتراث المسيحي.</p>
       </div>
 
-      <div class="search-bar">
-        <label for="searchInput">ابحث عن بطريرك</label>
-        <input id="searchInput" class="search-input" type="search" placeholder="اكتب اسم البابا أو رقم التسلسل..." />
+      <div class="search-panel">
+        <div class="search-header">
+          <label for="searchInput">البحث السريع</label>
+          <button id="resetFilters" class="ghost-button" type="button">إعادة تعيين</button>
+        </div>
+
+        <div class="search-bar">
+          <input id="searchInput" class="search-input" type="search" placeholder="ابحث باسم البطريرك أو وصفه أو فترة حكمه..." />
+        </div>
+
+        <div class="filter-buttons" aria-label="نوع البحث">
+          <button class="filter-button is-active" data-mode="all" type="button">الكل</button>
+          <button class="filter-button" data-mode="name" type="button">الأسماء</button>
+          <button class="filter-button" data-mode="story" type="button">الوصف</button>
+          <button class="filter-button" data-mode="reign" type="button">الفترة</button>
+        </div>
+
+        <div class="utility-buttons">
+          <button id="randomPope" class="secondary-button" type="button">بطاركة عشوائي</button>
+          <button id="sortToggle" class="secondary-button" type="button">ترتيب: التاريخي</button>
+        </div>
       </div>
 
       <div class="list-status">
