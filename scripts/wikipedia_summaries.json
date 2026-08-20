@@ -1,0 +1,1314 @@
+[
+  {
+    "id": 1,
+    "name": "البابا مرقس الأول",
+    "ar": {
+      "status": 404
+    },
+    "en": {
+      "status": 404
+    }
+  },
+  {
+    "id": 2,
+    "name": "البابا أنيانوس",
+    "ar": {
+      "status": 404
+    },
+    "en": {
+      "status": 404
+    }
+  },
+  {
+    "id": 3,
+    "name": "البابا ميليوس",
+    "ar": {
+      "status": 404
+    },
+    "en": {
+      "status": 404
+    }
+  },
+  {
+    "id": 4,
+    "name": "البابا كرذوذوس",
+    "ar": {
+      "status": 404
+    },
+    "en": {
+      "status": 404
+    }
+  },
+  {
+    "id": 5,
+    "name": "البابا بريموس",
+    "ar": {
+      "status": 404
+    },
+    "en": {
+      "status": 404
+    }
+  },
+  {
+    "id": 6,
+    "name": "البابا يسطس",
+    "ar": {
+      "status": 404
+    },
+    "en": {
+      "status": 404
+    }
+  },
+  {
+    "id": 7,
+    "name": "البابا أومانيوس",
+    "ar": {
+      "status": 404
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 8,
+    "name": "البابا مرقيانوس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 9,
+    "name": "البابا كلاديانوس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 10,
+    "name": "البابا أغريبينوس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 11,
+    "name": "البابا يوليانوس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 12,
+    "name": "البابا ديمتريوس الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 13,
+    "name": "البابا ياروكلاس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 14,
+    "name": "البابا ديونسيوس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 15,
+    "name": "البابا مكسيموس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 16,
+    "name": "البابا ثاؤنا",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 17,
+    "name": "البابا بطرس الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 18,
+    "name": "البابا أرشلاوس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 19,
+    "name": "البابا ألكسندروس الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 20,
+    "name": "البابا أثناسيوس الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 21,
+    "name": "البابا بطرس الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 22,
+    "name": "البابا تيموثاوس الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 23,
+    "name": "البابا ثاؤفيلس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 24,
+    "name": "البابا كيرلس الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 25,
+    "name": "البابا ديسقورس الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 26,
+    "name": "البابا تيموثاوس الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 27,
+    "name": "البابا بطرس الثالث",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 28,
+    "name": "البابا أثناسيوس الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 29,
+    "name": "البابا يوأنس الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 30,
+    "name": "البابا يوأنس الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 31,
+    "name": "البابا ديسقورس الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 32,
+    "name": "البابا تيموثاوس الثالث",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 33,
+    "name": "البابا ثيودوسيوس الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 34,
+    "name": "البابا بطرس الرابع",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 35,
+    "name": "البابا دميان",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 36,
+    "name": "البابا أنسطاسيوس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 37,
+    "name": "البابا أندرونيقوس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 38,
+    "name": "البابا بنيامين الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 39,
+    "name": "البابا أغاثون",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 40,
+    "name": "البابا يوأنس الثالث",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 41,
+    "name": "البابا إسحق",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 42,
+    "name": "البابا سيمون الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 43,
+    "name": "البابا الكسندروس الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 44,
+    "name": "البابا قزمان الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 45,
+    "name": "البابا ثيؤذوروس الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 46,
+    "name": "البابا خائيل الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 47,
+    "name": "البابا مينا الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 48,
+    "name": "البابا يؤانس الرابع",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 49,
+    "name": "البابا مرقس الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 50,
+    "name": "البابا يعقوب",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 51,
+    "name": "البابا سيمون الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 52,
+    "name": "البابا يوساب الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 53,
+    "name": "البابا خائيل الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 54,
+    "name": "البابا قزمان الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 55,
+    "name": "البابا شنودة الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 56,
+    "name": "البابا ميخائيل الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 57,
+    "name": "البابا غبريال الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 58,
+    "name": "البابا قزمان الثالث",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 59,
+    "name": "البابا مكاريوس الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 60,
+    "name": "البابا ثاؤفانيوس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 61,
+    "name": "البابا مينا الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 62,
+    "name": "البابا ابرآم",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 63,
+    "name": "البابا فيلوثاؤس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 64,
+    "name": "البابا زكريا",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 65,
+    "name": "البابا شنودة الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 66,
+    "name": "البابا خرسطوذولس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 67,
+    "name": "البابا كيرلس الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 68,
+    "name": "البابا ميخائيل الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 69,
+    "name": "البابا مكاريوس الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 70,
+    "name": "البابا غبريال الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 71,
+    "name": "البابا ميخائيل الثالث",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 72,
+    "name": "البابا يوأنس الخامس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 73,
+    "name": "البابا مرقص الثالث",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 74,
+    "name": "البابا يوأنس السادس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 75,
+    "name": "البابا كيرلس الثالث",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 76,
+    "name": "البابا اثناسيوس الثالث",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 77,
+    "name": "البابا غبريال الثالث",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 78,
+    "name": "البابا يوأنس السابع",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 79,
+    "name": "البابا ثيؤدوسيوس الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 80,
+    "name": "البابا يوأنس الثامن",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 81,
+    "name": "البابا يوأنس التاسع",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 82,
+    "name": "البابا بنيامين الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 83,
+    "name": "البابا بطرس الخامس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 84,
+    "name": "البابا مرقس الرابع",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 85,
+    "name": "البابا يوأنس العاشر",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 86,
+    "name": "البابا غبريال الرابع",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 87,
+    "name": "البابا متاؤس الأول",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 88,
+    "name": "البابا غبريال الخامس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 89,
+    "name": "البابا يوأنس الحادي عشر",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 90,
+    "name": "البابا متاؤس الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 91,
+    "name": "البابا غبريال السادس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 92,
+    "name": "البابا ميخائيل الرابع",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 93,
+    "name": "البابا يوأنس الثاني عشر",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 94,
+    "name": "البابا يوأنس الثالث عشر",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 95,
+    "name": "البابا غبريال السابع",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 96,
+    "name": "البابا يوأنس الرابع عشر",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 97,
+    "name": "البابا غبريال الثامن",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 98,
+    "name": "البابا مرقس الخامس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 99,
+    "name": "البابا يوأنس الخامس عشر",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 100,
+    "name": "البابا متاؤس الثالث",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 101,
+    "name": "البابا مرقس السادس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 102,
+    "name": "البابا متاؤس الرابع",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 103,
+    "name": "البابا يوأنس السادس عشر",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 104,
+    "name": "البابا بطرس السادس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 105,
+    "name": "البابا يوأنس السابع عشر",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 106,
+    "name": "البابا مرقس السابع",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 107,
+    "name": "البابا يوأنس الثامن عشر",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 108,
+    "name": "البابا مرقس الثامن",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 109,
+    "name": "البابا بطرس السابع",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 110,
+    "name": "البابا كيرلس الرابع",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 111,
+    "name": "البابا ديمتريوس الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 112,
+    "name": "البابا كيرلس الخامس",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 113,
+    "name": "البابا يوأنس التاسع عشر",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 114,
+    "name": "البابا مكاريوس الثالث",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 115,
+    "name": "البابا يوساب الثاني",
+    "ar": {
+      "status": 429
+    },
+    "en": {
+      "status": 429
+    }
+  },
+  {
+    "id": 116,
+    "name": "البابا كيرلس السادس",
+    "ar": {
+      "type": "standard",
+      "title": "كيرلس السادس (بابا الإسكندرية)",
+      "displaytitle": "<span lang=\"ar\" dir=\"rtl\"><span class=\"mw-page-title-main\">كيرلس السادس (بابا الإسكندرية)</span></span>",
+      "namespace": {
+        "id": 0,
+        "text": ""
+      },
+      "wikibase_item": "Q733984",
+      "titles": {
+        "canonical": "كيرلس_السادس_(بابا_الإسكندرية)",
+        "normalized": "كيرلس السادس (بابا الإسكندرية)",
+        "display": "<span lang=\"ar\" dir=\"rtl\"><span class=\"mw-page-title-main\">كيرلس السادس (بابا الإسكندرية)</span></span>"
+      },
+      "pageid": 92034,
+      "thumbnail": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Pope_Cyril_VI_of.jpg/330px-Pope_Cyril_VI_of.jpg?utm_source=ar.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "width": 330,
+        "height": 504
+      },
+      "originalimage": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/0/06/Pope_Cyril_VI_of.jpg?utm_source=ar.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "width": 1015,
+        "height": 1549
+      },
+      "lang": "ar",
+      "dir": "rtl",
+      "revision": "74075161",
+      "tid": "b55b02d2-28f3-11f1-8235-0dacd5716847",
+      "timestamp": "2026-03-26T09:11:01Z",
+      "description": "بطريرك مصري",
+      "description_source": "central",
+      "content_urls": {
+        "desktop": {
+          "page": "https://ar.wikipedia.org/wiki/%D9%83%D9%8A%D8%B1%D9%84%D8%B3_%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3_(%D8%A8%D8%A7%D8%A8%D8%A7_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9)",
+          "revisions": "https://ar.wikipedia.org/wiki/%D9%83%D9%8A%D8%B1%D9%84%D8%B3_%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3_(%D8%A8%D8%A7%D8%A8%D8%A7_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9)?action=history",
+          "edit": "https://ar.wikipedia.org/wiki/%D9%83%D9%8A%D8%B1%D9%84%D8%B3_%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3_(%D8%A8%D8%A7%D8%A8%D8%A7_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9)?action=edit",
+          "talk": "https://ar.wikipedia.org/wiki/%D9%86%D9%82%D8%A7%D8%B4:%D9%83%D9%8A%D8%B1%D9%84%D8%B3_%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3_(%D8%A8%D8%A7%D8%A8%D8%A7_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9)"
+        },
+        "mobile": {
+          "page": "https://ar.wikipedia.org/wiki/%D9%83%D9%8A%D8%B1%D9%84%D8%B3_%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3_(%D8%A8%D8%A7%D8%A8%D8%A7_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9)",
+          "revisions": "https://ar.wikipedia.org/wiki/Special:History/%D9%83%D9%8A%D8%B1%D9%84%D8%B3_%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3_(%D8%A8%D8%A7%D8%A8%D8%A7_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9)",
+          "edit": "https://ar.wikipedia.org/wiki/%D9%83%D9%8A%D8%B1%D9%84%D8%B3_%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3_(%D8%A8%D8%A7%D8%A8%D8%A7_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9)?action=edit",
+          "talk": "https://ar.wikipedia.org/wiki/%D9%86%D9%82%D8%A7%D8%B4:%D9%83%D9%8A%D8%B1%D9%84%D8%B3_%D8%A7%D9%84%D8%B3%D8%A7%D8%AF%D8%B3_(%D8%A8%D8%A7%D8%A8%D8%A7_%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9)"
+        }
+      },
+      "extract": "البابا كيرلس السادس بابا الإسكندرية وبطريرك الكرازة المرقسية، بطريرك الكنيسة القبطية الأرثوذكسية 116 في الفترة ما بين 10 مايو 1959 و 9 مارس 1971.",
+      "extract_html": "<p><b>البابا كيرلس السادس</b> بابا الإسكندرية وبطريرك الكرازة المرقسية، بطريرك الكنيسة القبطية الأرثوذكسية 116 في الفترة ما بين 10 مايو 1959 و 9 مارس 1971.</p>"
+    },
+    "en": null
+  },
+  {
+    "id": 117,
+    "name": "البابا شنوده الثالث",
+    "ar": {
+      "type": "standard",
+      "title": "شنودة الثالث",
+      "displaytitle": "<span lang=\"ar\" dir=\"rtl\"><span class=\"mw-page-title-main\">شنودة الثالث</span></span>",
+      "namespace": {
+        "id": 0,
+        "text": ""
+      },
+      "wikibase_item": "Q87455",
+      "titles": {
+        "canonical": "شنودة_الثالث",
+        "normalized": "شنودة الثالث",
+        "display": "<span lang=\"ar\" dir=\"rtl\"><span class=\"mw-page-title-main\">شنودة الثالث</span></span>"
+      },
+      "pageid": 45013,
+      "thumbnail": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Pope_Shenouda_III_of_Alexandria_by_Chuck_Kennedy_%28Official_White_House_Photostream%29.jpg/330px-Pope_Shenouda_III_of_Alexandria_by_Chuck_Kennedy_%28Official_White_House_Photostream%29.jpg?utm_source=ar.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "width": 330,
+        "height": 495
+      },
+      "originalimage": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/1/10/Pope_Shenouda_III_of_Alexandria_by_Chuck_Kennedy_%28Official_White_House_Photostream%29.jpg?utm_source=ar.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "width": 2333,
+        "height": 3500
+      },
+      "lang": "ar",
+      "dir": "rtl",
+      "revision": "75998318",
+      "tid": "a9bb1382-87e7-11f1-bff6-4503e3c31281",
+      "timestamp": "2026-07-25T05:14:08Z",
+      "description": "بابا الإسكندرية و بطريرك الكرازة المرقسية في مصر و سائر بلاد المهجر رقم117",
+      "description_source": "central",
+      "content_urls": {
+        "desktop": {
+          "page": "https://ar.wikipedia.org/wiki/%D8%B4%D9%86%D9%88%D8%AF%D8%A9_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB",
+          "revisions": "https://ar.wikipedia.org/wiki/%D8%B4%D9%86%D9%88%D8%AF%D8%A9_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB?action=history",
+          "edit": "https://ar.wikipedia.org/wiki/%D8%B4%D9%86%D9%88%D8%AF%D8%A9_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB?action=edit",
+          "talk": "https://ar.wikipedia.org/wiki/%D9%86%D9%82%D8%A7%D8%B4:%D8%B4%D9%86%D9%88%D8%AF%D8%A9_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB"
+        },
+        "mobile": {
+          "page": "https://ar.wikipedia.org/wiki/%D8%B4%D9%86%D9%88%D8%AF%D8%A9_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB",
+          "revisions": "https://ar.wikipedia.org/wiki/Special:History/%D8%B4%D9%86%D9%88%D8%AF%D8%A9_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB",
+          "edit": "https://ar.wikipedia.org/wiki/%D8%B4%D9%86%D9%88%D8%AF%D8%A9_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB?action=edit",
+          "talk": "https://ar.wikipedia.org/wiki/%D9%86%D9%82%D8%A7%D8%B4:%D8%B4%D9%86%D9%88%D8%AF%D8%A9_%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB"
+        }
+      },
+      "extract": "البابا شنودة الثالث ، بابا الإسكندرية وبطريرك الكرازة المرقسية وسائر بلاد المهجر، وهو البابا رقم 117. كان أول أسقف للتعليم المسيحي قبل أن يصبح البابا، وهو رابع أسقف يصبح البابا بعد البابا يوأنس التاسع عشر ومكاريوس الثالث ويوساب الثاني. وقد كان من الكتّاب أيضًا إلى جانب الوظيفة الدينية العظمى التي يشغلها، وكان ينشر في جريدة الأهرام الحكومية المصرية بصورة منتظمة.",
+      "extract_html": "<p><b>البابا شنودة الثالث</b> ، بابا الإسكندرية وبطريرك الكرازة المرقسية وسائر بلاد المهجر، وهو البابا رقم 117. كان أول أسقف للتعليم المسيحي قبل أن يصبح البابا، وهو رابع أسقف يصبح البابا بعد البابا يوأنس التاسع عشر <span class=\"mw-disambig\">ومكاريوس الثالث</span> ويوساب الثاني. وقد كان من الكتّاب أيضًا إلى جانب الوظيفة الدينية العظمى التي يشغلها، وكان ينشر في جريدة الأهرام الحكومية المصرية بصورة منتظمة.</p>"
+    },
+    "en": null
+  },
+  {
+    "id": 118,
+    "name": "البابا تواضروس الثاني",
+    "ar": {
+      "type": "standard",
+      "title": "تواضروس الثاني",
+      "displaytitle": "<span lang=\"ar\" dir=\"rtl\"><span class=\"mw-page-title-main\">تواضروس الثاني</span></span>",
+      "namespace": {
+        "id": 0,
+        "text": ""
+      },
+      "wikibase_item": "Q11823",
+      "titles": {
+        "canonical": "تواضروس_الثاني",
+        "normalized": "تواضروس الثاني",
+        "display": "<span lang=\"ar\" dir=\"rtl\"><span class=\"mw-page-title-main\">تواضروس الثاني</span></span>"
+      },
+      "pageid": 1495006,
+      "thumbnail": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Tawadros_II.jpg/330px-Tawadros_II.jpg?utm_source=ar.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "width": 330,
+        "height": 427
+      },
+      "originalimage": {
+        "source": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Tawadros_II.jpg?utm_source=ar.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+        "width": 2008,
+        "height": 2600
+      },
+      "lang": "ar",
+      "dir": "rtl",
+      "revision": "75581565",
+      "tid": "f75da272-6af0-11f1-a86b-834324a810fd",
+      "timestamp": "2026-06-18T08:37:40Z",
+      "description": "بابا وبطريرك ورئيس أساقفة المدينة العظمى الاسكندرية وبابا الكنيسة القبطية الارثوذكسية في مصر و سائر بلاد المهجر",
+      "description_source": "central",
+      "content_urls": {
+        "desktop": {
+          "page": "https://ar.wikipedia.org/wiki/%D8%AA%D9%88%D8%A7%D8%B6%D8%B1%D9%88%D8%B3_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A",
+          "revisions": "https://ar.wikipedia.org/wiki/%D8%AA%D9%88%D8%A7%D8%B6%D8%B1%D9%88%D8%B3_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A?action=history",
+          "edit": "https://ar.wikipedia.org/wiki/%D8%AA%D9%88%D8%A7%D8%B6%D8%B1%D9%88%D8%B3_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A?action=edit",
+          "talk": "https://ar.wikipedia.org/wiki/%D9%86%D9%82%D8%A7%D8%B4:%D8%AA%D9%88%D8%A7%D8%B6%D8%B1%D9%88%D8%B3_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A"
+        },
+        "mobile": {
+          "page": "https://ar.wikipedia.org/wiki/%D8%AA%D9%88%D8%A7%D8%B6%D8%B1%D9%88%D8%B3_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A",
+          "revisions": "https://ar.wikipedia.org/wiki/Special:History/%D8%AA%D9%88%D8%A7%D8%B6%D8%B1%D9%88%D8%B3_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A",
+          "edit": "https://ar.wikipedia.org/wiki/%D8%AA%D9%88%D8%A7%D8%B6%D8%B1%D9%88%D8%B3_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A?action=edit",
+          "talk": "https://ar.wikipedia.org/wiki/%D9%86%D9%82%D8%A7%D8%B4:%D8%AA%D9%88%D8%A7%D8%B6%D8%B1%D9%88%D8%B3_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A"
+        }
+      },
+      "extract": "تواضروس الثاني أو البابا تواضروس الثاني ، هو بابا الإسكندرية وبطريرك الكنيسة القبطية الأرثوذكسية الـ 118. وُلِد باسم وجيه صبحي باقي سليمان في المنصورة، وله شقيقتان. كان والده يعمل مهندس مساحة، وتنقلت الأسرة في المعيشة ما بين مدن المنصورة وسوهاج ودمنهور.",
+      "extract_html": "<p><b>تواضروس الثاني</b> أو <b>البابا تواضروس الثاني</b> ، هو بابا الإسكندرية وبطريرك الكنيسة القبطية الأرثوذكسية الـ 118. وُلِد باسم وجيه صبحي باقي سليمان في <span class=\"mw-disambig\">المنصورة</span>، وله شقيقتان. كان والده يعمل مهندس مساحة، وتنقلت الأسرة في المعيشة ما بين مدن <span class=\"mw-disambig\">المنصورة</span> وسوهاج ودمنهور.</p>"
+    },
+    "en": null
+  }
+]
