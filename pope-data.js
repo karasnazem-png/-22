@@ -86,6 +86,9 @@ const popes = [
     story: 'يُعدّ البابا مرقس الأول من أوائل من حملوا أمانة الكرسي الرسولي في الإسكندرية، وقد ارتبطت سيرته ببدء الرسالة الرسولية في مصر. ويُذكر في كتب السيرة الكنسية بأنه من الذين أسسوا أولى دعائم الكنيسة في المدينة، وارتبط اسمه بظهور الهوية الرسولية في الإسكندرية.'
   
   
+  
+  
+  
   },
 {
     id: 2,
@@ -94,6 +97,9 @@ const popes = [
     reign: '68 - 83 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'اشتهر البابا أنيانوس في أولى مراحل تاريخ الكنيسة بالإخلاص والخدمة، وقد ذُكر في الروايات الكنسية بأنه من الذين ساهموا في تثبيت أسس القيادة الروحية في المجتمع المسيحي المبكر، وارتبطت سيرته بتأكيد الاستقرار الكنسي في الفترة التي نشأت فيها الجماعة الإسكندرية.'
+  
+  
+  
   
   
   },
@@ -106,6 +112,9 @@ const popes = [
     story: 'يُعدّ البابا ميليوس من الأسماء التي وردت في السجل الكنسي المبكر، وقد ارتبطت سيرته بالاستمرار في خدمة الكنيسة ونقل التقاليد الرسولية إلى الجيل الذي تبعه، وقد ذُكر في التاريخ الكنسي ضمن الذين حافظوا على الرسالة الأولى في المدينة.'
   
   
+  
+  
+  
   },
 {
     id: 4,
@@ -114,6 +123,9 @@ const popes = [
     reign: '95 - 106 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'تُذكر سيرة البابا كرذوذوس ضمن ترتيب البطاركة الأوائل، ويمثل هذا الاسم جزءًا من الذاكرة الكنسية التي حفظت أسماء القادة الذين سارت الكنيسة على أيديهم في بداياتها، ويُعد من الأسماء التي تدل على استمرار السلسلة البطريركية منذ العصر المبكر.'
+  
+  
+  
   
   
   },
@@ -126,6 +138,9 @@ const popes = [
     story: 'شغل البابا بريموس الكرسي الرسولي في مرحلة انتقالية من أوائل القرن الثاني، وارتبطت حياته بالاستمرار في خدمة الرعية وإبقاء الكنيسة على مسارها الروحي خلال زمنٍ كان فيه الترتيب الكنسي في نمو مستمر.'
   
   
+  
+  
+  
   },
 {
     id: 6,
@@ -134,6 +149,9 @@ const popes = [
     reign: '118 - 129 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُذكر البابا يسطس في السلك البطريركي المبكر ضمن من حفظوا اسم الكنيسة في الذاكرة التاريخية على مر العصور، وقد أُدرج اسمه ضمن البطاركة الذين ما زالت أسماؤهم ترتبط بتاريخ الكنيسة الإسكندرية.'
+  
+  
+  
   
   
   },
@@ -146,6 +164,9 @@ const popes = [
     story: 'من البطاركة الذين عُرفت أسماؤهم في المراجع التاريخية، ويمثل البابا أومانيوس جزءًا من السلسلة التي تعاقبت على الكرسي المرقسي عبر القرون الأولى من تاريخ الكنيسة.'
   
   
+  
+  
+  
   },
 {
     id: 8,
@@ -154,6 +175,9 @@ const popes = [
     reign: '141 - 152 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يأتي البابا مرقيانوس في الترتيب التاريخي باعتباره واحدًا من البطاركة الذين ساهموا في استمرار حياة الكنيسة في مصر، ويُذكر اسمه ضمن من حافظوا على مسيرة الكنيسة في زمنٍ تعاقب فيه القادة الروحيون.'
+  
+  
+  
   
   
   },
@@ -166,6 +190,9 @@ const popes = [
     story: 'سُجل اسم البابا كلاديانوس ضمن البطاركة الأوائل، وأصبح جزءًا من الذاكرة التي يرتبط بها تاريخ الكنيسة القبطية، ويمثل هذا الاسم جزءًا من السلسلة التي بدأت من الفترات الأولى لقيام الكنيسة في مصر.'
   
   
+  
+  
+  
   },
 {
     id: 10,
@@ -174,6 +201,9 @@ const popes = [
     reign: '166 - 178 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'من الأسماء التي اشتهرت في الترتيب البيزنطي والقبطي، ويظهر البابا أغريبينوس في مواضع مختلفة من كتب التاريخ الكنسي كأحد من حملوا مسؤولية الكرسي الرسولي في القرون الأولى.'
+  
+  
+  
   
   
   },
@@ -186,6 +216,9 @@ const popes = [
     story: 'تُذكر سيرته ضمن فترات التتابع البطريركي، وهي صورة من صور استمرارية الكنيسة عبر القرون.'
   
   
+  
+  
+  
   },
 {
     id: 12,
@@ -194,6 +227,9 @@ const popes = [
     reign: '188 - 230 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'أحد أبرز الأسماء بين البطاركة المبكرين، وارتبطت سيرته بقوة الكنيسة في الفترة التي كانت فيها الإسكندرية مركزًا روحيًا مهمًا.'
+  
+  
+  
   
   
   },
@@ -206,6 +242,9 @@ const popes = [
     story: 'يُدرج في السلسلة التاريخية كأحد السفراء الروحيين الذين حافظوا على استمرار الكرسي الرسولي.'
   
   
+  
+  
+  
   },
 {
     id: 14,
@@ -214,6 +253,9 @@ const popes = [
     reign: '246 - 264 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'من الأسماء التي تُذكر في تاريخ الكنيسة القبطية بسبب مكانته وأثره في المحافظة على التقاليد الكنسية.'
+  
+  
+  
   
   
   },
@@ -226,6 +268,9 @@ const popes = [
     story: 'تُعرف سيرته في كتب التاريخ باعتبارها جزءًا من المنظومة التي ربطت الخلافة البطريركية بالهوية القبطية.'
   
   
+  
+  
+  
   },
 {
     id: 16,
@@ -236,14 +281,20 @@ const popes = [
     story: 'يأتي في السجل التاريخي كواحد من الذين حملوا راية الكنيسة في زمنٍ شهد تحديات كبيرة.'
   
   
+  
+  
+  
   },
 {
     id: 17,
     name: 'البابا بطرس الأول',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/6/60/Martyr_Saints_of_China.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/5/5a/%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%B1%D8%A2%D8%A9-_%D9%85%D8%AE%D8%AA%D8%A7%D8%B1_%D8%A7%D9%84%D9%85%D8%B1%D8%A7%D9%8A%D8%A7_%D8%A7%D9%84%D8%AA%D9%8A_%D9%86%D8%B4%D8%B1%D8%AA_%D9%81%D9%8A_%28%28%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D8%A9_%D8%A7%D9%84%D8%A3%D8%B3%D8%A8%D9%88%D8%B9%D9%8A%D8%A9%29%29.djvu?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     reign: '302 - 311 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'تُذكر سيرته ضمن من عُرفوا بالشهادة والصبر، وهو مثال على قوة الإيمان في زمن الاضطهاد.'
+  
+  
+  
   
   
   },
@@ -256,6 +307,9 @@ const popes = [
     story: 'من قائدي الكنيسة في المرحلة الانتقالية بعد الاضطهاد، وارتبط اسمه بترسيخ البطريركية في الذاكرة الجمعية.'
   
   
+  
+  
+  
   },
 {
     id: 19,
@@ -264,6 +318,9 @@ const popes = [
     reign: '312 - 328 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُعد من الشخصيات البارزة في تاريخ الكنيسة القبطية بسبب دوره في توحيد الرعية خلال فترة حرجة.'
+  
+  
+  
   
   
   },
@@ -276,6 +333,9 @@ const popes = [
     story: 'من أعظم مراجع الكنيسة القبطية، وارتبطت سيرته بالتحولات الفكرية والروحية التي ألهمت الأجيال.'
   
   
+  
+  
+  
   },
 {
     id: 21,
@@ -284,6 +344,9 @@ const popes = [
     reign: '373 - 379 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُذكر في الترتيب التاريخي كواحد من القادة الروحيين الذين حافظوا على سير الكنيسة في زمن التحديات.'
+  
+  
+  
   
   
   },
@@ -296,6 +359,9 @@ const popes = [
     story: 'شغل منصب البطريرك في مرحلة مهمة من تاريخ الكنيسة، وترك ذكرًا في السجل الكنسي الذي يُستند إليه اليوم.'
   
   
+  
+  
+  
   },
 {
     id: 23,
@@ -304,6 +370,9 @@ const popes = [
     reign: '385 - 412 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'من البطاركة الذين عُرفوا بقدرتهم على قيادة الكنيسة عبر التغيرات الهامة التي طرأت في المجتمعات المسيحية.'
+  
+  
+  
   
   
   },
@@ -316,6 +385,9 @@ const popes = [
     story: 'يُعد من أشهر أسماء الكنيسة القبطية، وتُذكر سيرته في كثير من الكتب باعتبارها من أهم صفحات التقاليد المسيحية.'
   
   
+  
+  
+  
   },
 {
     id: 25,
@@ -324,6 +396,9 @@ const popes = [
     reign: '444 - 454 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُذكر في تاريخ الكنيسة كواحد من القادة الذين سعى إلى حماية العقيدة في زمن التوترات الكنسية.'
+  
+  
+  
   
   
   },
@@ -336,6 +411,9 @@ const popes = [
     story: 'يمثل جزءًا من التراث البطريركي القبطى الذي استمر عبر القرون رغم التبدلات السياسية.'
   
   
+  
+  
+  
   },
 {
     id: 27,
@@ -344,6 +422,9 @@ const popes = [
     reign: '477 - 489 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'سُجل اسمه في الحركات التي حافظت على استمرارية الكرسي الرسولي في الإسكندرية.'
+  
+  
+  
   
   
   },
@@ -356,6 +437,9 @@ const popes = [
     story: 'ينتمي إلى سلسلة من البطاركة الذين تركوا بصمة في الذاكرة الدينية للكنيسة القبطية.'
   
   
+  
+  
+  
   },
 {
     id: 29,
@@ -364,6 +448,9 @@ const popes = [
     reign: '496 - 505 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُذكر كواحد من الذين حملوا أمانة القيادة الروحية خلال فترة من التوتر والاضطراب.'
+  
+  
+  
   
   
   },
@@ -376,6 +463,9 @@ const popes = [
     story: 'مما يميز سيرته أنها تُقرأ ضمن مسيرة البطاركة الذين حافظوا على الاستمرار الروحي للكنيسة.'
   
   
+  
+  
+  
   },
 {
     id: 31,
@@ -384,6 +474,9 @@ const popes = [
     reign: '516 - 518 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُدرج في السجلات التاريخية كواحد من الذين عاصروا التحولات الهامة في الكنيسة الإسكندرية.'
+  
+  
+  
   
   
   },
@@ -396,6 +489,9 @@ const popes = [
     story: 'تظهر سيرته في سياق الحفاظ على الهوية الكنسية خلال فترات انتقالية في تاريخ الشرق المسيحي.'
   
   
+  
+  
+  
   },
 {
     id: 33,
@@ -404,6 +500,9 @@ const popes = [
     reign: '536 - 567 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'من البطاركة الذين تُحفظ أسماؤهم في الذاكرة الدينية باعتبارهم جزءًا من جسد الكنيسة الجامعة.'
+  
+  
+  
   
   
   },
@@ -416,6 +515,9 @@ const popes = [
     story: 'تُذكر سيرته في التواريخ التي تستعرض انتقال السلطة البطريركية بين القرون المتعاقبة.'
   
   
+  
+  
+  
   },
 {
     id: 35,
@@ -424,6 +526,9 @@ const popes = [
     reign: '569 - 605 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُعد من الأسماء التي تضفي عمقًا على سجل البطريركيات في المرحلة المبكرة من العصور الوسطى.'
+  
+  
+  
   
   
   },
@@ -436,6 +541,9 @@ const popes = [
     story: 'ارتبطت سيرته بالاستمرار الكنسي في عصرٍ شهد تحولات كبيرة في المنطقة وداخل الكنيسة.'
   
   
+  
+  
+  
   },
 {
     id: 37,
@@ -444,6 +552,9 @@ const popes = [
     reign: '616 - 623 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُذكر في السيرة الكنسية كواحد من مناحي التتابع الروحي في عهدٍ كان فيه البطريرك أداة للاتصال بين الناس والكنيسة.'
+  
+  
+  
   
   
   },
@@ -456,6 +567,9 @@ const popes = [
     story: 'من البطاركة الذين تُحفظ أسماؤهم في.records التاريخية، ويمثلون استمرارًا لرسالة الكنيسة في مصر.'
   
   
+  
+  
+  
   },
 {
     id: 39,
@@ -464,6 +578,9 @@ const popes = [
     reign: '662 - 680 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'تُقرأ سيرته كجزء من المرحلة التي أصبحت فيها الكنيسة القبطية أكثر تميزًا في الذاكرة العامة.'
+  
+  
+  
   
   
   },
@@ -476,6 +593,9 @@ const popes = [
     story: 'يُعتبر من البطاركة الذين حملوا مسؤولية القيادة خلال فترات اضطراب سياسية ودينية.'
   
   
+  
+  
+  
   },
 {
     id: 41,
@@ -484,6 +604,9 @@ const popes = [
     reign: '690 - 692 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'سُجلت سيرته ضمن قائمة البطاركة التي تعكس استمرار العمل الكنسي عبر القرون.'
+  
+  
+  
   
   
   },
@@ -496,6 +619,9 @@ const popes = [
     story: 'يُذكر كواحد من القادة الروحيين الذين حافظوا على مكانة الكرسي الرسولي في أجواء متغيرة.'
   
   
+  
+  
+  
   },
 {
     id: 43,
@@ -504,6 +630,9 @@ const popes = [
     reign: '704 - 729 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'من الشخصيات البارزة في سلسلة البطاركة التي تعاقبت خلال القرون الوسطى في مصر.'
+  
+  
+  
   
   
   },
@@ -516,6 +645,9 @@ const popes = [
     story: 'تظهر سيرته ضمن السجل الذي يوثق انتقال السلطة الروحية في تلك الحقبة.'
   
   
+  
+  
+  
   },
 {
     id: 45,
@@ -524,6 +656,9 @@ const popes = [
     reign: '730 - 742 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُذكر في كتب التاريخ كواحد من القادة الذين حافظوا على استمرار الخدمات الروحية في الإسكندرية.'
+  
+  
+  
   
   
   },
@@ -536,6 +671,9 @@ const popes = [
     story: 'سيرته جزء من سرد البطاركة الذين تنقلت أسماؤهم عبر مراحل تاريخية مختلفة.'
   
   
+  
+  
+  
   },
 {
     id: 47,
@@ -544,6 +682,9 @@ const popes = [
     reign: '767 - 776 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُدرج في الترتيب البطريركي باعتباره من القادة الذين بنوا على تراث الكرسي الرسولي.'
+  
+  
+  
   
   
   },
@@ -556,6 +697,9 @@ const popes = [
     story: 'تظهر سيرته في السجل البطريركي كدليل على استمرارية الكنيسة في زمن التغييرات الثقافية.'
   
   
+  
+  
+  
   },
 {
     id: 49,
@@ -566,14 +710,20 @@ const popes = [
     story: 'من البطاركة الذين عُرفت أسماؤهم في تاريخ الكنيسة القبطية خلال القرون الوسطى.'
   
   
+  
+  
+  
   },
 {
     id: 50,
     name: 'البابا يعقوب',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/Ihs-logo.svg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Jan_Victors_-_Jacob_Seeking_the_Forgiveness_of_Esau_-_79.330_-_Indianapolis_Museum_of_Art_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '819 - 830 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'تُذكر سيرته ضمن سلسلة البطاركة التي حافظت على التقاليد في مرحلةٍ حرجة من التاريخ.'
+  
+  
+  
   
   
   },
@@ -586,6 +736,9 @@ const popes = [
     story: 'من الأسماء التي تطرق إليها السرد التاريخي بشكل مختصر لكنه مهم في الترتيب البطريركي.'
   
   
+  
+  
+  
   },
 {
     id: 52,
@@ -594,6 +747,9 @@ const popes = [
     reign: '831 - 849 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُعد من القادة الذين حافظوا على مكانة الكرسي الرسولي في وقتٍ كانت فيه الكنيسة في حاجة إلى الاستقرار.'
+  
+  
+  
   
   
   },
@@ -606,6 +762,9 @@ const popes = [
     story: 'سيرته تمثل جزءًا من السجل التاريخي الذي يُستشهد به عند الحديث عن تسلسل البطاركة.'
   
   
+  
+  
+  
   },
 {
     id: 54,
@@ -614,6 +773,9 @@ const popes = [
     reign: '851 - 858 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'من البطاركة الذين تُحفظ أسماؤهم في الترتيب الإسكندري، ويمثلون خيطًا من الاستمرارية.'
+  
+  
+  
   
   
   },
@@ -626,6 +788,9 @@ const popes = [
     story: 'تشتهر سيرته بكونها من أكثر الروايات ارتباطًا بالهوية القبطية في الذاكرة الدينية الحديثة.'
   
   
+  
+  
+  
   },
 {
     id: 56,
@@ -634,6 +799,9 @@ const popes = [
     reign: '880 - 907 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُذكر في السجل الكنسي باعتباره من القادة الذين ساهموا في استمرار الكنيسة عبر العصور المتعاقبة.'
+  
+  
+  
   
   
   },
@@ -646,6 +814,9 @@ const popes = [
     story: 'تُعرض سيرته كجزء من تاريخ الكنيسة الذي يربط المعاصرة بالتراث القديم.'
   
   
+  
+  
+  
   },
 {
     id: 58,
@@ -654,6 +825,9 @@ const popes = [
     reign: '920 - 932 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'من البطاركة الذين شكّلوا صفحة في تاريخ الكنيسة خلال القرون الوسطى المتأخرة.'
+  
+  
+  
   
   
   },
@@ -666,6 +840,9 @@ const popes = [
     story: 'سُجلت سيرته في التاريخ الكنسي باعتبارها من السلالات التي حفظت المكانة الدينية للكرسي المرقسي.'
   
   
+  
+  
+  
   },
 {
     id: 60,
@@ -674,6 +851,9 @@ const popes = [
     reign: '952 - 956 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'تمثل سيرته جزءًا من المشهد الذي ربط بين التاريخ الكنسي والهوية القبطية الحديثة.'
+  
+  
+  
   
   
   },
@@ -686,6 +866,9 @@ const popes = [
     story: 'يُذكر في السجل التاريخي كواحد من الذين حملوا رسالة الكنيسة في مرحلةٍ كانت فيها الرعية بحاجة إلى الاستقرار.'
   
   
+  
+  
+  
   },
 {
     id: 62,
@@ -694,6 +877,9 @@ const popes = [
     reign: '975 - 979 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'ينتمي إلى سلسلة من البطاركة التي تُقرأ في سياق التوارث الروحي للكنيسة القبطية.'
+  
+  
+  
   
   
   },
@@ -706,6 +892,9 @@ const popes = [
     story: 'تُذكر سيرته باعتبارها جزءًا من التراكم التاريخي الذي مهد لمرحلة لاحقة من الاستقرار الكنسي.'
   
   
+  
+  
+  
   },
 {
     id: 64,
@@ -714,6 +903,9 @@ const popes = [
     reign: '1004 - 1032 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُشكل اسمه جزءًا من سيرة البطاركة الذين تستذكرهم الكنيسة في ذكرى الروحانية والقيادة.'
+  
+  
+  
   
   
   },
@@ -726,6 +918,9 @@ const popes = [
     story: 'يُذكر في السجلات التاريخية باعتباره أحد الأسماء التي ساهمت في ترسيخ هوية الكنيسة في ذلك العصر.'
   
   
+  
+  
+  
   },
 {
     id: 66,
@@ -734,6 +929,9 @@ const popes = [
     reign: '1046 - 1077 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'تأتي سيرته ضمن الترتيب الذي يوضح كيف استمرت الكنيسة في إيصال رسالتها عبر الأجيال.'
+  
+  
+  
   
   
   },
@@ -746,6 +944,9 @@ const popes = [
     story: 'يمثل جزءًا من تاريخ الكنيسة الذي يُقرأ اليوم كجزء من الهوية الروحية والإنسانية للمجتمع القبطي.'
   
   
+  
+  
+  
   },
 {
     id: 68,
@@ -754,6 +955,9 @@ const popes = [
     reign: '1092 - 1102 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'تظهر سيرته في سياق البطاركة الذين درّبوا الذاكرة التاريخية للكنيسة على التذكر والتقدير.'
+  
+  
+  
   
   
   },
@@ -766,6 +970,9 @@ const popes = [
     story: 'من البطاركة الذين يُذكرون عند الحديث عن الاستمرارية الروحية في مرحلة انتقالية من تاريخ الكنيسة.'
   
   
+  
+  
+  
   },
 {
     id: 70,
@@ -774,6 +981,9 @@ const popes = [
     reign: '1131 - 1145 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'تُحاط سيرته بالتراث الذي يُستحضر في العصور الحديثة عند الحديث عن البطاركة والكرسي الرسولي.'
+  
+  
+  
   
   
   },
@@ -786,37 +996,49 @@ const popes = [
     story: 'يأتي في نهاية السلسلة التي قصدت إلى توثيق تاريخ الكنيسة القبطية عبر أسماء كثيرة ومختلفة.'
   
   
+  
+  
+  
   },
 {
     id: 72,
     name: 'البابا يوأنس الخامس',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Tawadros_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Rivista_italiana_di_numismatica_1891_p_189.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1147 - 1166 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُعدّ البابا يوأنس الخامس من البطاركة الذين امتد ذكرهم عبر تاريخ الكنيسة القبطية، وارتبطت سيرته بمرحلة انتقالية في قاعدة القيادة الروحية للإسكندرية.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-072-Pope-John-V_.html'
   
   
+  
+  
+  
   },
 {
     id: 73,
     name: 'البابا مرقص الثالث',
-    image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/T%C3%A9tra%C3%A9vang%C3%A9liaire_boha%C3%AFrique_-_BNF_Copte_13_f1v_-_Portrait_de_Marc_III.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1166 - 1189 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُذكر البابا مرقص الثالث ضمن السلسلة التي استمرت فيها الكنيسة القبطية في خدمة الرعية والرسالة الإسكندرية عبر القرون الوسطى.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-073-Pope-Mark-III_.html'
   
   
+  
+  
+  
   },
 {
     id: 74,
     name: 'البابا يوأنس السادس',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Tawadros_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/7/74/Pope_John_VI.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1189 - 1216 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يشكل البابا يوأنس السادس جزءًا من تقويم البطاركة الذين حافظوا على استمرارية الكنيسة في فترة من التغيّرات السياسية والاجتماعية.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-074-Pope-John-VI_.html'
+  
+  
+  
   
   
   },
@@ -830,6 +1052,9 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-075-Pope-Cyril-III_.html'
   
   
+  
+  
+  
   },
 {
     id: 76,
@@ -839,6 +1064,9 @@ const popes = [
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُحفظ اسم البابا أثناسيوس الثالث في تاريخ الكنيسة القبطية كواحد من القادة الذين أسهموا في استقرار الرعية والحفاظ على تعاليمها.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-076-Pope-Athanasius-III_.html'
+  
+  
+  
   
   
   },
@@ -852,37 +1080,49 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-077-Pope-Gabriel-III_.html'
   
   
+  
+  
+  
   },
 {
     id: 78,
     name: 'البابا يوأنس السابع',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Tawadros_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/3/35/Byzantinischer_Mosaizist_um_705_002.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1271 - 1293 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يمثل البابا يوأنس السابع جزءًا من السلسلة البطريركية التي استمرت في إرساء التقاليد الروحية داخل الكنيسة الإسكندرية.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-078-Pope-John-VII_.html'
   
   
+  
+  
+  
   },
 {
     id: 79,
     name: 'البابا ثيؤدوسيوس الثاني',
-    image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/2/26/Theodosius_II_Louvre_Ma1036.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1294 - 1300 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُعد البابا ثيؤدوسيوس الثاني من أسماء البطاركة الذين حفظت لهم الذاكرة القبطية حكاية الاستمرارية والقيادة الروحية.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-079-Pope-Theodosius-II_.html'
   
   
+  
+  
+  
   },
 {
     id: 80,
     name: 'البابا يوأنس الثامن',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Tawadros_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/d/dd/Jan-VIII.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1300 - 1320 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'تُذكر سيرته ضمن سلسلة البطاركة الذين ساهموا في استقرار الكنيسة في مرحلة انتقالية من تاريخ مصر المسيحية.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-080-Pope-John-VIII_.html'
+  
+  
+  
   
   
   },
@@ -896,15 +1136,21 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-081-Pope-John-IX_.html'
   
   
+  
+  
+  
   },
 {
     id: 82,
     name: 'البابا بنيامين الثاني',
-    image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/9/92/%D8%B6%D8%B1%D9%8A%D8%AD_%D8%A7%D9%84%D8%A8%D8%A7%D8%A8%D8%A7_%D8%A8%D9%86%D9%8A%D8%A7%D9%85%D9%8A%D9%86_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     reign: '1327 - 1339 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُشير اسم البابا بنيامين الثاني إلى استمرار التراث البطريركي القبطى في مرحلة أبرزت حضور الكنيسة في المجتمع المصري.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-082-Pope-Benjamin-II_.html'
+  
+  
+  
   
   
   },
@@ -918,6 +1164,9 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-083-Pope-Peter-V_.html'
   
   
+  
+  
+  
   },
 {
     id: 84,
@@ -929,15 +1178,21 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-084-Pope-Mark-IV_.html'
   
   
+  
+  
+  
   },
 {
     id: 85,
     name: 'البابا يوأنس العاشر',
-    image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Denarius_of_John_X.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1363 - 1369 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يرتبط اسم البابا يوأنس العاشر بالهوية البطريركية التي استمرت عبر مختلف مراحل التاريخ القبطي.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-085-Pope-John-X_.html'
+  
+  
+  
   
   
   },
@@ -951,6 +1206,9 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-086-Pope-Gabriel-IV_.html'
   
   
+  
+  
+  
   },
 {
     id: 87,
@@ -960,6 +1218,9 @@ const popes = [
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُعد البابا متاؤس الأول من البطاركة الذين يرمز اسمهم إلى استمرارية الكرسي الرسولي في الإسكندرية عبر القرون.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-087-Pope-Matthew-I_.html'
+  
+  
+  
   
   
   },
@@ -973,6 +1234,9 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-088-Pope-Gabriel-V_.html'
   
   
+  
+  
+  
   },
 {
     id: 89,
@@ -982,6 +1246,9 @@ const popes = [
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُذكر البابا يوأنس الحادي عشر في السلسلة البطريركية التي أدت إلى ترسيخ الخيط الروحي للكنيسة القبطية.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-089-Pope-John-XI_.html'
+  
+  
+  
   
   
   },
@@ -995,6 +1262,9 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-090-Pope-Matthew-II_.html'
   
   
+  
+  
+  
   },
 {
     id: 91,
@@ -1004,6 +1274,9 @@ const popes = [
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُعدّ البابا غبريال السادس جزءًا من سلسلة البطاركة التي حافظت على التقاليد في القرن الخامس عشر.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-091-Pope-Gabriel-VI_.html'
+  
+  
+  
   
   
   },
@@ -1017,15 +1290,21 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-092-Pope-Michael-IV----VI_.html'
   
   
+  
+  
+  
   },
 {
     id: 93,
     name: 'البابا يوأنس الثاني عشر',
-    image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Otto_I_begegnet_Papst_Johannes_XII_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1480 - 1483 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُحفظ البابا يوأنس الثاني عشر في سجل البطاركة الذين حافظوا على الذاكرة الروحية في أواخر القرن الخامس عشر.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-093-Pope-John-XII_.html'
+  
+  
+  
   
   
   },
@@ -1039,15 +1318,21 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-094-Pope-John-XIII_.html'
   
   
+  
+  
+  
   },
 {
     id: 95,
     name: 'البابا غبريال السابع',
-    image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Coptic_cross.svg/960px-Coptic_cross.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail',
     reign: '1525 - 1568 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُعرف البابا غبريال السابع في تاريخ الكنيسة القبطية بعهدٍ طويل ساهم في ترسيخ التقاليد والهوية الروحية.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-095-Pope-Gabriel-VII_.html'
+  
+  
+  
   
   
   },
@@ -1061,6 +1346,9 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-096-Pope-John-XIV_.html'
   
   
+  
+  
+  
   },
 {
     id: 97,
@@ -1070,6 +1358,9 @@ const popes = [
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'سجلت سيرة البابا غبريال الثامن جزءًا من تاريخ الكنيسة القبطية في مرحلةٍ مثّلت نقطة تعاقب حيوية في القرون الحديثة.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-097-Pope-Gabriel-VIII_.html'
+  
+  
+  
   
   
   },
@@ -1083,6 +1374,9 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-098-Pope-Mark-V_.html'
   
   
+  
+  
+  
   },
 {
     id: 99,
@@ -1092,6 +1386,9 @@ const popes = [
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'ينتمي البابا يوأنس الخامس عشر إلى السلسلة البطريركية التي استمرت في رعاية الرعية خلال تحديات القرن السابع عشر.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-099-Pope-John-XV_.html'
+  
+  
+  
   
   
   },
@@ -1105,6 +1402,9 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-100-Pope-Matthew-III_.html'
   
   
+  
+  
+  
   },
 {
     id: 101,
@@ -1114,6 +1414,9 @@ const popes = [
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'تذكر السجلات أن البابا مرقس السادس كان جزءًا من مسار البطاركة الذين حافظوا على رسالة الكنيسة في أجواء متغيرة.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-101-Pope-Mark-VI_.html'
+  
+  
+  
   
   
   },
@@ -1127,6 +1430,9 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-102-Pope-Matthew-IV_.html'
   
   
+  
+  
+  
   },
 {
     id: 103,
@@ -1138,48 +1444,63 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-103-Pope-John-XVI_.html'
   
   
+  
+  
+  
   },
 {
     id: 104,
     name: 'البابا بطرس السادس',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Tawadros_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/1/14/Pope_Peter_VI.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     reign: '1718 - 1726 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُعد البابا بطرس السادس من البطاركة الذين تركوا أثرًا على السرد التاريخي للكنيسة القبطية في القرن الثامن عشر.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-104-Pope-Peter-VI_.html'
   
   
+  
+  
+  
   },
 {
     id: 105,
     name: 'البابا يوأنس السابع عشر',
-    image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Italy_1000_AD_alt1.svg/960px-Italy_1000_AD_alt1.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail',
     reign: '1727 - 1745 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'تُحفظ سيرة البابا يوأنس السابع عشر في تاريخ الكنيسة القبطية كملف من الروحانية والاستمرار خلال القرن الثامن عشر.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-105-Pope-John-XVII_.html'
   
   
+  
+  
+  
   },
 {
     id: 106,
     name: 'البابا مرقس السابع',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Tawadros_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e2/Pope_Mark_VIII.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1745 - 1769 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُذكر البابا مرقس السابع في السجل الكنسي باعتباره من حاملي أمانة القيادة في حقبةٍ تعاقبت فيها الأجيال البطريركية.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-106-Pope-Mark-VIII_.html'
   
   
+  
+  
+  
   },
 {
     id: 107,
     name: 'البابا يوأنس الثامن عشر',
-    image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/3/34/Pope_John_XVIII.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     reign: '1769 - 1796 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'ارتبط اسم البابا يوأنس الثامن عشر بتاريخ الكنيسة في الفترة التي أعقبت قرونًا من الاستقرار والتبدل في المجتمع المصري.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-107-Pope-John-XVIII_.html'
+  
+  
+  
   
   
   },
@@ -1193,114 +1514,147 @@ const popes = [
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-108-Pope-Mark-IX_.html'
   
   
+  
+  
+  
   },
 {
     id: 109,
     name: 'البابا بطرس السابع',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Tawadros_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Pope_Peter_VII.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1809 - 1852 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'سجلت سيرته جزءًا من السلسلة التي حافظت على الهوية القبطية في عصرٍ تغيّرت فيه البلاد والسياسة.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-109-Pope-Peter-VII_.html'
   
   
+  
+  
+  
   },
 {
     id: 110,
     name: 'البابا كيرلس الرابع',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Tawadros_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/1/15/Cyril_IV_of_Alexandria.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1853 - 1861 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُذكر البابا كيرلس الرابع في السرد التاريخي باعتباره من قادة الكنيسة الذين حملوا مسؤولية التجديد والاستمرارية.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-110-Pope-Cyril-IV_.html'
   
   
+  
+  
+  
   },
 {
     id: 111,
     name: 'البابا ديمتريوس الثاني',
-    image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/b/b6/Pope_Demetrius_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1862 - 1870 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'ارتبط اسم البابا ديمتريوس الثاني بتاريخ الكنيسة القبطية في أوائل القرن التاسع عشر، وهو جزء من سلسلة القيادة الكنسية.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-111-Pope-Demetrius-II_.html'
   
   
+  
+  
+  
   },
 {
     id: 112,
     name: 'البابا كيرلس الخامس',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Tawadros_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Cyril_V_of_Alexandria.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1874 - 1927 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُعد البابا كيرلس الخامس من أبرز البطاركة الحديثة، وقد ارتبط اسمه بمرحلةٍ غنية في تاريخ الكنيسة الوطنية.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-112-Pope-Cyril-V_.html'
   
   
+  
+  
+  
   },
 {
     id: 113,
     name: 'البابا يوأنس التاسع عشر',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/f/f5/Pope_John_XIX_of_Alexandria.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Bari_Exultet_roll_1_-_emperors_and_pope_%28pope1%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1928 - 1942 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُذكر البابا يوأنس التاسع عشر كواحد من رؤساء الكنيسة القبطية الذين حملوا مسؤولية القيادة في أوائل القرن العشرين.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-113-Pope-John-XIX_.html'
   
   
+  
+  
+  
   },
 {
     id: 114,
     name: 'البابا مكاريوس الثالث',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Pope_Macarius_III_of_Alexandria_%28114%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Pope_Macarius_III_of_Alexandria_%28114%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1944 - 1945 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يشكل البابا مكاريوس الثالث جزءًا من صفحة البطاركة الحديثة في الكنيسة القبطية خلال فترة التحول السياسي والاجتماعي.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-114-Pope-Macarius-III_.html'
   
   
+  
+  
+  
   },
 {
     id: 115,
     name: 'البابا يوساب الثاني',
-    image: 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Abba_Yousab_II.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     reign: '1946 - 1956 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُحفظ البابا يوساب الثاني في تاريخ الكنيسة على أنه من قادة العصر الحديث الذين أسهموا في إبقاء الكنيسة على مسارها.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-115-Pope-Yusab-II.html'
   
   
+  
+  
+  
   },
 {
     id: 116,
     name: 'البابا كيرلس السادس',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Tawadros_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e4/Pope_Cyril_VI_of_Alexandria.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1959 - 1971 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُعد البابا كيرلس السادس أحد البطاركة الذين عايشوا مرحلة محورية في حياة الكنيسة القبطية في مصر خلال القرن العشرين.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-116-Pope-Cyril-VI_.html'
   
   
+  
+  
+  
   },
 {
     id: 117,
     name: 'البابا شنوده الثالث',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Tawadros_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Pope_Shenouda_III_of_Alexandria_by_Chuck_Kennedy_%28Official_White_House_Photostream%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled',
     reign: '1971 - 2012 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'يُعد البابا شنوده الثالث من أبرز البطاركة في العصر الحديث، وقد ارتبط اسمه بالقيادة الروحية والرسالة العامة للكنيسة القبطية.',
     source: 'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-117-Pope-Shenouda-III_.html'
   
   
+  
+  
+  
   },
 {
     id: 118,
     name: 'البابا تواضروس الثاني',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Tawadros_II.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=original',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/b/b8/%D9%81%D8%B6%D9%84_%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86_%D9%81%D8%A7%D8%B6%D9%84_%D9%85%D8%B9_%D8%AA%D9%88%D8%A7%D8%B6%D8%B1%D9%88%D8%B3_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%DB%8C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original',
     reign: '2012 - الآن',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'البابا تواضروس الثاني هو البطريرك الحالي، ويشغل كرسي الإسكندرية وبطريرك الكرازة المرقسية في العصر الحديث.',
     source: 'https://st-takla.org/Saints/popes/118/pope-tawadrous-ii.html'
+  
+  
+  
   
   
   },
