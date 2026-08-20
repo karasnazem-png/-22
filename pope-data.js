@@ -1308,6 +1308,7 @@ const popes = [
 
 const popeData = popes.map((pope, index) => ({
   ...pope,
-  image: getPopeImage(index),
+  // prefer explicit image set above; fall back to shared/default when missing
+  image: pope.image || getPopeImage(index),
   source: pope.source || sourceUrls[index] || ''
 }));
