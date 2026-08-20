@@ -79,6 +79,7 @@ function getPopeImage(index) {
 const popes = [
 {
     id: 1,
+    image: 'assets/images/pope-1.png',
     name: 'البابا مرقس الأول',
     reign: '61 - 68 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -91,6 +92,7 @@ const popes = [
   },
 {
     id: 2,
+    image: 'assets/images/pope-2.png',
     name: 'البابا أنيانوس',
     reign: '68 - 83 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -103,6 +105,7 @@ const popes = [
   },
 {
     id: 3,
+    image: 'assets/images/pope-3.png',
     name: 'البابا ميليوس',
     reign: '83 - 95 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -115,6 +118,7 @@ const popes = [
   },
 {
     id: 4,
+    image: 'assets/images/pope-4.png',
     name: 'البابا كرذوذوس',
     reign: '95 - 106 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -127,6 +131,7 @@ const popes = [
   },
 {
     id: 5,
+    image: 'assets/images/pope-5.png',
     name: 'البابا بريموس',
     reign: '106 - 118 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -139,6 +144,7 @@ const popes = [
   },
 {
     id: 6,
+    image: 'assets/images/pope-6.png',
     name: 'البابا يسطس',
     reign: '118 - 129 م',
     birth: 'غير متوفر في المصادر المعتمدة',
