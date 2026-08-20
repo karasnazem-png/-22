@@ -1,7 +1,8 @@
 const popeResults = document.getElementById('popeResults');
 const pagerStatus = document.getElementById('pagerStatus');
 const searchInput = document.getElementById('searchInput');
-const totalPages = popeData ? popeData.length : 0;
+
+const getTotalPages = () => (Array.isArray(popeData) ? popeData.length : 0);
 
 function renderPopes(filterText = '') {
   if (!popeResults || typeof popeData === 'undefined') return;
@@ -41,7 +42,7 @@ function renderPopes(filterText = '') {
     .join('');
 
   if (pagerStatus) {
-    pagerStatus.textContent = `${filteredPopes.length} / ${totalPages}`;
+    pagerStatus.textContent = `${filteredPopes.length} / ${getTotalPages()}`;
   }
 }
 
