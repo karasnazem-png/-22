@@ -4,6 +4,7 @@ const searchInput = document.getElementById('searchInput');
 const resetFiltersButton = document.getElementById('resetFilters');
 const randomPopeButton = document.getElementById('randomPope');
 const sortToggleButton = document.getElementById('sortToggle');
+const voiceSearchButton = document.getElementById('voiceSearchButton');
 const filterButtons = document.querySelectorAll('.filter-button');
 
 const getTotalPages = () => (Array.isArray(popeData) ? popeData.length : 0);
@@ -115,6 +116,52 @@ if (popeResults) {
 
 if (searchInput) {
   searchInput.addEventListener('input', (event) => renderPopes(event.target.value));
+}
+
+if (voiceSearchButton) {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+  if (!SpeechRecognition) {
+    voiceSearchButton.disabled = true;
+    voiceSearchButton.title = 'البحث الصوتي غير مدعوم في هذا المتصفح';
+    voiceSearchButton.querySelector('span:last-child').textContent = 'غير مدعوم';
+  } else {
+    const recognition = new SpeechRecognition();
+    recognition.lang = 'ar-EG';
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+
+    recognition.addEventListener('start', () => {
+      voiceSearchButton.classList.add('is-listening');
+      voiceSearchButton.querySelector('span:last-child').textContent = 'استمع الآن...';
+    });
+
+    recognition.addEventListener('result', (event) => {
+      const transcript = event.results[0][0].transcript.trim();
+      if (!searchInput || !transcript) return;
+      searchInput.value = transcript;
+      searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+    });
+
+    recognition.addEventListener('error', (event) => {
+      if (event.error === 'not-allowed' || event.error === 'service-not-allowed') {
+        voiceSearchButton.title = 'اسمح للمتصفح باستخدام الميكروفون للبحث صوتيًا';
+      }
+    });
+
+    recognition.addEventListener('end', () => {
+      voiceSearchButton.classList.remove('is-listening');
+      voiceSearchButton.querySelector('span:last-child').textContent = 'بحث صوتي';
+    });
+
+    voiceSearchButton.addEventListener('click', () => {
+      try {
+        recognition.start();
+      } catch (error) {
+        if (error.name !== 'InvalidStateError') throw error;
+      }
+    });
+  }
 }
 
 filterButtons.forEach((button) => {

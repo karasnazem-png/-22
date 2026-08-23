@@ -73,7 +73,13 @@
         </div>
 
         <div class="search-bar">
-          <input id="searchInput" class="search-input" type="search" placeholder="ابحث باسم البطريرك أو وصفه أو فترة حكمه..." />
+          <div class="search-controls">
+            <input id="searchInput" class="search-input" type="search" placeholder="ابحث باسم البطريرك أو وصفه أو فترة حكمه..." />
+            <button id="voiceSearchButton" class="voice-button" type="button" aria-label="البحث الصوتي" title="البحث الصوتي">
+              <span aria-hidden="true">🎙</span>
+              <span>بحث صوتي</span>
+            </button>
+          </div>
         </div>
 
         <div class="filter-buttons" aria-label="نوع البحث">
