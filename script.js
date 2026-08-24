@@ -73,9 +73,13 @@ function renderPopes(filterText = '') {
         imgUrl = (typeof getPopeImage === 'function' && globalIndex >= 0) ? getPopeImage(globalIndex) : '';
       }
 
+      const imageMarkup = imgUrl
+        ? `<button class="image-view-button" type="button" data-image="${imgUrl}" data-title="${pope.name}" aria-label="تكبير صورة ${pope.name}"><img src="${imgUrl}" alt="${pope.name}" loading="lazy" /></button>`
+        : '<div class="no-photo" role="img" aria-label="لا توجد صورة متاحة">لا توجد صورة متاحة</div>';
+
       return `
     <article class="pope-card">
-      <img src="${imgUrl}" alt="${pope.name}" />
+      ${imageMarkup}
       <div class="pope-card-body">
         <div class="pope-card-top">
           <span class="pope-number">#${pope.id}</span>
@@ -381,12 +385,69 @@ async function showMoreInfo(title) {
 
 // delegate click handler for more-info buttons
 document.addEventListener('click', (ev) => {
+  const imageButton = ev.target.closest && ev.target.closest('.image-view-button');
+  if (imageButton) {
+    openImageViewer(imageButton.dataset.image, imageButton.dataset.title);
+    return;
+  }
+
   const btn = ev.target.closest && ev.target.closest('.more-info-button');
   if (btn) {
     const t = btn.dataset.title || btn.getAttribute('data-title') || btn.textContent || '';
     showMoreInfo(t);
   }
 });
+
+function openImageViewer(imageUrl, title) {
+  if (!imageUrl) return;
+
+  const viewer = document.createElement('div');
+  viewer.className = 'image-viewer';
+  viewer.setAttribute('role', 'dialog');
+  viewer.setAttribute('aria-modal', 'true');
+  viewer.setAttribute('aria-label', title || 'عرض الصورة');
+  viewer.innerHTML = `
+    <div class="image-viewer-backdrop"></div>
+    <div class="image-viewer-panel">
+      <div class="image-viewer-toolbar">
+        <strong>${title || 'عرض الصورة'}</strong>
+        <div class="image-viewer-actions">
+          <button type="button" data-action="zoom-out" aria-label="تصغير الصورة">−</button>
+          <button type="button" data-action="reset" aria-label="إعادة حجم الصورة">100%</button>
+          <button type="button" data-action="zoom-in" aria-label="تكبير الصورة">+</button>
+          <button type="button" data-action="close" aria-label="إغلاق">×</button>
+        </div>
+      </div>
+      <div class="image-viewer-stage"><img src="${imageUrl}" alt="${title || 'الصورة'}" /></div>
+    </div>
+  `;
+  document.body.appendChild(viewer);
+
+  const image = viewer.querySelector('img');
+  const resetButton = viewer.querySelector('[data-action="reset"]');
+  let zoom = 1;
+  const updateZoom = () => {
+    image.style.transform = `scale(${zoom})`;
+    resetButton.textContent = `${Math.round(zoom * 100)}%`;
+  };
+  const close = () => viewer.remove();
+
+  viewer.addEventListener('click', (event) => {
+    const action = event.target.closest('[data-action]')?.dataset.action;
+    if (action === 'zoom-in') zoom = Math.min(zoom + 0.25, 3);
+    if (action === 'zoom-out') zoom = Math.max(zoom - 0.25, 0.5);
+    if (action === 'reset') zoom = 1;
+    if (action === 'close' || event.target.classList.contains('image-viewer-backdrop')) close();
+    updateZoom();
+  });
+  viewer.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') close();
+    if (event.key === '+' || event.key === '=') zoom = Math.min(zoom + 0.25, 3);
+    if (event.key === '-') zoom = Math.max(zoom - 0.25, 0.5);
+    updateZoom();
+  });
+  viewer.querySelector('[data-action="close"]').focus();
+}
 
 // Setup animated ripples and press feedback for all interactive buttons/links
 (function setupButtonAnimations() {

@@ -92,7 +92,7 @@ const popes = [
   },
 {
     id: 2,
-    image: 'assets/images/pope-2.png',
+  image: null,
     name: 'البابا أنيانوس',
     reign: '68 - 83 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1553,6 +1553,6 @@ const popes = [
 const popeData = popes.map((pope, index) => ({
   ...pope,
   // prefer explicit image set above; fall back to shared/default when missing
-  image: getPopeImage(index),
+  image: pope.image === null ? '' : getPopeImage(index),
   source: pope.source || sourceUrls[index] || ''
 }));
