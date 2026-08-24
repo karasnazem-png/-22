@@ -127,17 +127,26 @@ if (voiceSearchButton) {
     voiceSearchButton.querySelector('span:last-child').textContent = 'غير مدعوم';
   } else {
     const recognition = new SpeechRecognition();
+    let recognitionTimeout;
     recognition.lang = 'ar-EG';
-    recognition.interimResults = false;
+    recognition.interimResults = true;
+    recognition.continuous = false;
     recognition.maxAlternatives = 1;
 
     recognition.addEventListener('start', () => {
+      clearTimeout(recognitionTimeout);
+      recognitionTimeout = setTimeout(() => recognition.abort(), 7000);
       voiceSearchButton.classList.add('is-listening');
       voiceSearchButton.querySelector('span:last-child').textContent = 'استمع الآن...';
     });
 
     recognition.addEventListener('result', (event) => {
-      const transcript = event.results[0][0].transcript.trim();
+      const result = event.results[event.results.length - 1];
+      if (!result || !result.isFinal) return;
+
+      clearTimeout(recognitionTimeout);
+      recognition.stop();
+      const transcript = result[0].transcript.trim();
       if (!searchInput || !transcript) return;
       searchInput.value = transcript;
       searchInput.dispatchEvent(new Event('input', { bubbles: true }));
@@ -150,6 +159,7 @@ if (voiceSearchButton) {
     });
 
     recognition.addEventListener('end', () => {
+      clearTimeout(recognitionTimeout);
       voiceSearchButton.classList.remove('is-listening');
       voiceSearchButton.querySelector('span:last-child').textContent = 'بحث صوتي';
     });

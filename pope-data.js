@@ -73,7 +73,7 @@ const sourceUrls = [
   'https://st-takla.org/Saints/Coptic-Synaxarium-OrOrthodox-Saints-Biography-00-Coptic-OrOrthodox-Popes/Life-of-Coptic-Pope-071-Pope-Michael-III----V_.html'
 ];
 function getPopeImage(index) {
-  return sharedPopeImage;
+  return popes[index]?.image || sharedPopeImage;
 }
 
 const popes = [
@@ -1537,6 +1537,7 @@ const popes = [
 {
     id: 118,
     name: 'البابا تواضروس الثاني',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/118-Pope-Tawadrous-II/.album.jpg?m=1419425338',
     reign: '2012 - الآن',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: 'البابا تواضروس الثاني هو البطريرك الحالي، ويشغل كرسي الإسكندرية وبطريرك الكرازة المرقسية في العصر الحديث.',
