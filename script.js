@@ -323,28 +323,6 @@ function createMoreInfoModal() {
   modal.addEventListener('click', (ev) => { if (ev.target === modal) { if (modal && modal.parentNode) modal.parentNode.removeChild(modal); } });
 }
 
-async function fetchWikipediaData(title) {
-  const safe = encodeURIComponent(String(title).replace(/ /g, '_'));
-  const summaryUrl = `https://en.wikipedia.org/api/rest_v1/page/summary/${safe}`;
-  const sectionsUrl = `https://en.wikipedia.org/api/rest_v1/page/mobile-sections/${safe}`;
-
-  const [summaryResp, sectionsResp] = await Promise.allSettled([
-    fetch(summaryUrl),
-    fetch(sectionsUrl)
-  ]);
-
-  let summary = null;
-  let sections = null;
-  try {
-    if (summaryResp.status === 'fulfilled' && summaryResp.value.ok) summary = await summaryResp.value.json();
-  } catch (e) { summary = null; }
-  try {
-    if (sectionsResp.status === 'fulfilled' && sectionsResp.value.ok) sections = await sectionsResp.value.json();
-  } catch (e) { sections = null; }
-
-  return { summary, sections };
-}
-
 function showMoreInfo(id) {
   const pope = popeData.find((item) => item.id === Number(id));
   if (!pope) return;
@@ -355,10 +333,7 @@ function showMoreInfo(id) {
   const contentEl = modal.querySelector('.more-info-content');
   const facts = `<p class="biography-facts">الفترة: ${pope.reign} | الميلاد: ${pope.birth}</p>`;
   const story = `<p class="more-info-extract">${pope.story}</p>`;
-  const realBiography = pope.source
-    ? `<iframe class="biography-frame" src="${pope.source}" title="السيرة الحقيقية لـ ${pope.name}" loading="lazy"></iframe>`
-    : '<p>لا توجد صفحة سيرة موثقة متاحة لهذا البطريرك حتى الآن.</p>';
-  contentEl.innerHTML = `<h2>${pope.name}</h2>${facts}${story}${realBiography}`;
+  contentEl.innerHTML = `<h2>السيرة الحقيقية لـ ${pope.name}</h2>${facts}${story}`;
 }
 
 // delegate click handler for more-info buttons
