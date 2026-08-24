@@ -90,7 +90,7 @@ function renderPopes(filterText = '') {
         <p>الميلاد: ${pope.birth}</p>
         <p>${pope.story}</p>
         <div class="pope-actions">
-          <button class="more-info-button" type="button" data-id="${pope.id}" data-title="${pope.name}" aria-label="عرض معلومات ${pope.name}" title="عرض المعلومات"><span aria-hidden="true">ⓘ</span></button>
+          <button class="more-info-button" type="button" data-id="${pope.id}" data-title="${pope.name}" aria-label="عرض معلومات ${pope.name}">More info</button>
         </div>
       </div>
     </article>
@@ -301,7 +301,7 @@ if (sortToggleButton) {
   });
 }
 
-// Wikipedia/Wikidata "More info" modal and fetch helpers
+// Local "More info" biography modal
 function createMoreInfoModal() {
   if (document.getElementById('moreInfoModal')) return;
   const modal = document.createElement('div');
