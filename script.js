@@ -74,7 +74,7 @@ function renderPopes(filterText = '') {
       }
 
       const imageMarkup = imgUrl
-        ? `<button class="image-view-button" type="button" data-image="${imgUrl}" data-title="${pope.name}" aria-label="عرض الصورة كاملة ${pope.name}" title="عرض الصورة كاملة"><img src="${imgUrl}" alt="${pope.name}" loading="lazy" /><span class="image-view-label" aria-hidden="true">⌕</span></button>`
+        ? `<button class="image-view-button" type="button" data-image="${imgUrl}" data-title="${pope.name}" aria-label="عرض الصورة كاملة ${pope.name}" title="عرض الصورة كاملة"><img src="${imgUrl}" alt="${pope.name}" loading="lazy" /></button>`
         : '<div class="no-photo" role="img" aria-label="لا توجد صورة متاحة">لا توجد صورة متاحة</div>';
 
       return `
@@ -90,7 +90,7 @@ function renderPopes(filterText = '') {
         <p>الميلاد: ${pope.birth}</p>
         <p>${pope.story}</p>
         <div class="pope-actions">
-          <button class="more-info-button" type="button" data-id="${pope.id}" data-title="${pope.name}" aria-label="عرض معلومات ${pope.name}">More info</button>
+          <button class="more-info-button" type="button" data-id="${pope.id}" data-title="${pope.name}" aria-label="عرض معلومات ${pope.name}">مزيد من المعلومات</button>
         </div>
       </div>
     </article>
