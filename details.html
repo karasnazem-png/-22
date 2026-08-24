@@ -26,7 +26,6 @@
         <p class="detail-meta" id="detailMeta"></p>
         <p class="detail-birth" id="detailBirth"></p>
         <p id="detailStory"></p>
-        <p class="pope-site">مصدر السيرة: <a id="detailPageLink" href="" target="_blank" rel="noopener">عرض المصدر الخارجي</a></p>
       </div>
     </section>
   </main>
@@ -44,7 +43,6 @@
     const meta = document.getElementById('detailMeta');
     const birth = document.getElementById('detailBirth');
     const story = document.getElementById('detailStory');
-    const detailPageLink = document.getElementById('detailPageLink');
 
     if (pope) {
       title.textContent = pope.name;
@@ -61,17 +59,9 @@
       meta.textContent = `الفترة: ${pope.reign}`;
       birth.textContent = `الميلاد: ${pope.birth}`;
       story.textContent = pope.story;
-      if (detailPageLink) {
-        detailPageLink.href = pope.source || 'index.html';
-        detailPageLink.textContent = pope.source ? 'عرض المصدر الخارجي' : 'العودة إلى الصفحة الرئيسية';
-      }
     } else {
       title.textContent = 'البطريرك غير موجود';
       meta.textContent = 'لم يتم العثور على هذه الصفحة.';
-      if (detailPageLink) {
-        detailPageLink.href = 'index.html';
-        detailPageLink.textContent = 'العودة إلى الصفحة الرئيسية';
-      }
     }
   </script>
   <script src="script.js?v=20260824-viewer"></script>

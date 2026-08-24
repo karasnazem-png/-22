@@ -92,7 +92,7 @@ const popes = [
   },
 {
     id: 2,
-  image: null,
+  image: sharedPopeImage,
     name: 'البابا أنيانوس',
     reign: '68 - 83 م',
     birth: 'غير متوفر في المصادر المعتمدة',
