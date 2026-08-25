@@ -193,8 +193,6 @@ if (resetFiltersButton) {
 if (randomPopeButton) {
   // Dice-roll cube: visual 3D die roll that selects a pope
   randomPopeButton.addEventListener('click', () => {
-    console.log('randomPope clicked');
-    try { alert('RNG dice roll triggered — if you see this, the handler is running.'); } catch (e) { console.log('alert failed', e); }
     if (!Array.isArray(popeData) || !popeData.length) return;
 
     randomPopeButton.disabled = true;
@@ -332,8 +330,11 @@ function showMoreInfo(id) {
   if (!modal) return;
   const contentEl = modal.querySelector('.more-info-content');
   const facts = `<p class="biography-facts">الفترة: ${pope.reign} | الميلاد: ${pope.birth}</p>`;
-  const story = `<p class="more-info-extract">${pope.story}</p>`;
-  contentEl.innerHTML = `<h2>السيرة الحقيقية لـ ${pope.name}</h2>${facts}${story}`;
+  const image = pope.image
+    ? `<img class="more-info-image" src="${pope.image}" alt="${pope.name}" />`
+    : '';
+  const story = `<div class="more-info-extract"><h3>قصة الحياة</h3><p>${pope.story}</p></div>`;
+  contentEl.innerHTML = `<h2>السيرة الحقيقية لـ ${pope.name}</h2>${image}${facts}${story}`;
 }
 
 // delegate click handler for more-info buttons

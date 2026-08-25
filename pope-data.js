@@ -92,7 +92,7 @@ const popes = [
   },
 {
     id: 2,
-  image: sharedPopeImage,
+  image: 'assets/images/pope-3.png',
     name: 'البابا أنيانوس',
     reign: '68 - 83 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -105,7 +105,7 @@ const popes = [
   },
 {
     id: 3,
-    image: 'assets/images/pope-3.png',
+  image: sharedPopeImage,
     name: 'البابا ميليوس',
     reign: '83 - 95 م',
     birth: 'غير متوفر في المصادر المعتمدة',
