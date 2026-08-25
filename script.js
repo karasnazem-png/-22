@@ -70,7 +70,7 @@ function renderPopes(filterText = '') {
         <h3>${pope.name}</h3>
         <p class="pope-meta">المدة: ${pope.reign}</p>
         <p>الميلاد: ${pope.birth}</p>
-        <p>${pope.story}</p>
+        <p class="pope-description">${pope.story}</p>
         <div class="pope-actions">
           <button class="more-info-button" type="button" data-id="${pope.id}" data-title="${pope.name}" aria-label="عرض معلومات ${pope.name}">مزيد من المعلومات</button>
         </div>
