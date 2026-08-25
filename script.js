@@ -51,7 +51,7 @@ function renderPopes(filterText = '') {
 
   popeResults.innerHTML = filteredPopes
     .map((pope) => {
-      const imageUrl = pope.image || 'https://images.unsplash.com/photo-1509474520651-488d9f6d0e74?auto=format&fit=crop&w=1200&q=80';
+      const imageUrl = pope.image || 'assets/images/image.png';
 
       return `
     <article class="pope-card">
