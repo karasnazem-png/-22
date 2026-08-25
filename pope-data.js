@@ -230,6 +230,7 @@ const popes = [
   },
 {
     id: 13,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-013.jpg',
     name: 'البابا ياروكلاس',
     reign: '230 - 246 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -304,6 +305,7 @@ const popes = [
   },
 {
     id: 19,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-019.jpg',
     name: 'البابا ألكسندروس الأول',
     reign: '312 - 328 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -316,6 +318,7 @@ const popes = [
   },
 {
     id: 20,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-020.jpg',
     name: 'البابا أثناسيوس الأول',
     reign: '328 - 373 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -337,7 +340,7 @@ const popes = [
   
   
   
-  },
+    },
 {
     id: 22,
     name: 'البابا تيموثاوس الأول',
@@ -352,6 +355,7 @@ const popes = [
   },
 {
     id: 23,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-023.jpg',
     name: 'البابا ثاؤفيلس',
     reign: '385 - 412 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -364,6 +368,7 @@ const popes = [
   },
 {
     id: 24,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-024.jpg',
     name: 'البابا كيرلس الأول',
     reign: '412 - 444 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -376,6 +381,7 @@ const popes = [
   },
 {
     id: 25,
+    image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-025.jpg',
     name: 'البابا ديسقورس الأول',
     reign: '444 - 454 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -496,6 +502,7 @@ const popes = [
   },
 {
     id: 35,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-035.jpg',
     name: 'البابا دميان',
     reign: '569 - 605 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -820,6 +827,7 @@ const popes = [
   },
 {
     id: 62,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-062.jpg',
     name: 'البابا ابرآم',
     reign: '975 - 979 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1408,6 +1416,7 @@ const popes = [
   },
 {
     id: 108,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-108.jpg',
     name: 'البابا مرقس الثامن',
     reign: '1796 - 1809 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1421,6 +1430,7 @@ const popes = [
   },
 {
     id: 109,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-109.jpg',
     name: 'البابا بطرس السابع',
     reign: '1809 - 1852 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1434,6 +1444,7 @@ const popes = [
   },
 {
     id: 110,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-110.jpg',
     name: 'البابا كيرلس الرابع',
     reign: '1853 - 1861 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1447,6 +1458,7 @@ const popes = [
   },
 {
     id: 111,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-111.jpg',
     name: 'البابا ديمتريوس الثاني',
     reign: '1862 - 1870 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1474,6 +1486,7 @@ const popes = [
   },
 {
     id: 113,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-113.jpg',
     name: 'البابا يوأنس التاسع عشر',
     reign: '1928 - 1942 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1487,6 +1500,7 @@ const popes = [
   },
 {
     id: 114,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-114.jpg',
     name: 'البابا مكاريوس الثالث',
     reign: '1944 - 1945 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1500,6 +1514,7 @@ const popes = [
   },
 {
     id: 115,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-115.jpg',
     name: 'البابا يوساب الثاني',
     reign: '1946 - 1956 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1513,6 +1528,7 @@ const popes = [
   },
 {
     id: 116,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-116.jpg',
     name: 'البابا كيرلس السادس',
     reign: '1959 - 1971 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1526,6 +1542,7 @@ const popes = [
   },
 {
     id: 117,
+  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-117.jpg',
     name: 'البابا شنوده الثالث',
     reign: '1971 - 2012 م',
     birth: 'غير متوفر في المصادر المعتمدة',
