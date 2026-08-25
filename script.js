@@ -43,18 +43,6 @@ function renderPopes(filterText = '') {
 
   const filteredPopes = getFilteredPopes(filterText);
 
-  // Build image frequency map across the whole dataset so we can hide/remove duplicate/wrong photos
-  const imageCounts = Object.create(null);
-  const firstOwner = Object.create(null); // map imageUrl -> pope.id (first owner)
-  if (Array.isArray(popeData)) {
-    popeData.forEach((p, i) => {
-      const candidate = p.image || (typeof getPopeImage === 'function' ? getPopeImage(i) : '');
-      if (!candidate) return;
-      imageCounts[candidate] = (imageCounts[candidate] || 0) + 1;
-      if (!firstOwner[candidate]) firstOwner[candidate] = p.id;
-    });
-  }
-
   if (!filteredPopes.length) {
     popeResults.innerHTML = '<p class="no-results">لم يتم العثور على بطريرك مطابق.</p>';
     if (pagerStatus) pagerStatus.textContent = `0 / ${getTotalPages()}`;
@@ -63,15 +51,9 @@ function renderPopes(filterText = '') {
 
   popeResults.innerHTML = filteredPopes
     .map((pope) => {
-      // find this pope's index in the canonical list so getPopeImage(index) works if needed
+      // Resolve the image from the canonical record so its printed number stays aligned.
       const globalIndex = Array.isArray(popeData) ? popeData.findIndex((g) => g.id === pope.id) : -1;
       let imgUrl = pope.image || (typeof getPopeImage === 'function' && globalIndex >= 0 ? getPopeImage(globalIndex) : '');
-
-      // If this image appears multiple times in the dataset and this pope is not the first owner,
-      // consider it a duplicate/wrong photo and replace with the per-index fallback (likely a placeholder).
-      if (imgUrl && imageCounts[imgUrl] > 1 && firstOwner[imgUrl] !== pope.id) {
-        imgUrl = (typeof getPopeImage === 'function' && globalIndex >= 0) ? getPopeImage(globalIndex) : '';
-      }
 
       const imageMarkup = imgUrl
         ? `<button class="image-view-button" type="button" data-image="${imgUrl}" data-title="${pope.name}" aria-label="عرض الصورة كاملة ${pope.name}" title="عرض الصورة كاملة"><img src="${imgUrl}" alt="${pope.name}" loading="lazy" /></button>`

@@ -73,7 +73,7 @@ const sourceUrls = [
   'https://st-takla.org/Saints/Coptic-Synaxarium-OrOrthodox-Saints-Biography-00-Coptic-OrOrthodox-Popes/Life-of-Coptic-Pope-071-Pope-Michael-III----V_.html'
 ];
 function getPopeImage(index) {
-  return popes[index]?.image || sharedPopeImage;
+  return popes[index]?.image || '';
 }
 
 const popes = [
@@ -105,7 +105,7 @@ const popes = [
   },
 {
     id: 3,
-  image: sharedPopeImage,
+  image: null,
     name: 'البابا ميليوس',
     reign: '83 - 95 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -118,7 +118,7 @@ const popes = [
   },
 {
     id: 4,
-    image: 'assets/images/pope-4.png',
+  image: null,
     name: 'البابا كرذوذوس',
     reign: '95 - 106 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -131,7 +131,7 @@ const popes = [
   },
 {
     id: 5,
-    image: 'assets/images/pope-5.png',
+  image: null,
     name: 'البابا بريموس',
     reign: '106 - 118 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -144,7 +144,7 @@ const popes = [
   },
 {
     id: 6,
-    image: 'assets/images/pope-6.png',
+  image: null,
     name: 'البابا يسطس',
     reign: '118 - 129 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -217,6 +217,7 @@ const popes = [
   },
 {
     id: 12,
+  image: 'assets/images/pope-4.png',
     name: 'البابا ديمتريوس الأول',
     reign: '188 - 230 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -241,6 +242,7 @@ const popes = [
   },
 {
     id: 14,
+  image: 'assets/images/pope-5.png',
     name: 'البابا ديونسيوس',
     reign: '246 - 264 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -277,6 +279,7 @@ const popes = [
   },
 {
     id: 17,
+  image: 'assets/images/pope-6.png',
     name: 'البابا بطرس الأول',
     reign: '302 - 311 م',
     birth: 'غير متوفر في المصادر المعتمدة',
