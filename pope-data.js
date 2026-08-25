@@ -1572,6 +1572,6 @@ const popes = [
 
 const popeData = popes.map((pope, index) => ({
   ...pope,
-  image: pope.image === null ? sharedPopeImage : getPopeImage(index),
+  image: pope.image ? getPopeImage(index) : sharedPopeImage,
   source: pope.source || sourceUrls[index] || ''
 }));
