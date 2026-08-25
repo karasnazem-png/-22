@@ -73,7 +73,7 @@ const sourceUrls = [
   'https://st-takla.org/Saints/Coptic-Synaxarium-OrOrthodox-Saints-Biography-00-Coptic-OrOrthodox-Popes/Life-of-Coptic-Pope-071-Pope-Michael-III----V_.html'
 ];
 function getPopeImage(index) {
-  return popes[index]?.image || '';
+  return popes[index]?.image || sharedPopeImage;
 }
 
 const popes = [

@@ -55,9 +55,7 @@ function renderPopes(filterText = '') {
       const globalIndex = Array.isArray(popeData) ? popeData.findIndex((g) => g.id === pope.id) : -1;
       let imgUrl = pope.image || (typeof getPopeImage === 'function' && globalIndex >= 0 ? getPopeImage(globalIndex) : '');
 
-      const imageMarkup = imgUrl
-        ? `<button class="image-view-button" type="button" data-image="${imgUrl}" data-title="${pope.name}" aria-label="عرض الصورة كاملة ${pope.name}" title="عرض الصورة كاملة"><img src="${imgUrl}" alt="${pope.name}" loading="lazy" /></button>`
-        : '<div class="no-photo" role="img" aria-label="كتاب مقدس">كتاب مقدس</div>';
+      const imageMarkup = `<button class="image-view-button" type="button" data-image="${imgUrl}" data-title="${pope.name}" aria-label="عرض الصورة كاملة ${pope.name}" title="عرض الصورة كاملة"><img src="${imgUrl}" alt="${pope.name}" loading="lazy" /></button>`;
 
       return `
     <article class="pope-card">
@@ -312,9 +310,7 @@ function showMoreInfo(id) {
   if (!modal) return;
   const contentEl = modal.querySelector('.more-info-content');
   const facts = `<p class="biography-facts">الفترة: ${pope.reign} | الميلاد: ${pope.birth}</p>`;
-  const image = pope.image
-    ? `<img class="more-info-image" src="${pope.image}" alt="${pope.name}" />`
-    : '';
+  const image = `<img class="more-info-image" src="${pope.image || sharedPopeImage}" alt="${pope.name}" />`;
   const story = `<div class="more-info-extract"><h3>قصة الحياة</h3><p>${pope.story}</p></div>`;
   contentEl.innerHTML = `<h2>السيرة الحقيقية لـ ${pope.name}</h2>${image}${facts}${story}`;
 }

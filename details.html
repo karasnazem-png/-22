@@ -46,15 +46,12 @@
 
     if (pope) {
       title.textContent = pope.name;
-      if (pope.image) {
-        image.src = pope.image;
+      if (pope.image || sharedPopeImage) {
+        image.src = pope.image || sharedPopeImage;
         image.alt = pope.name;
         zoomButton.hidden = false;
-        zoomButton.dataset.image = pope.image;
+        zoomButton.dataset.image = pope.image || sharedPopeImage;
         zoomButton.dataset.title = pope.name;
-      } else {
-        image.hidden = true;
-        noImage.hidden = false;
       }
       meta.textContent = `الفترة: ${pope.reign}`;
       birth.textContent = `الميلاد: ${pope.birth}`;
