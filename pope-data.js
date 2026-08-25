@@ -230,7 +230,7 @@ const popes = [
   },
 {
     id: 13,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-013.jpg',
+  image: null,
     name: 'البابا ياروكلاس',
     reign: '230 - 246 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -243,7 +243,7 @@ const popes = [
   },
 {
     id: 14,
-  image: 'assets/images/pope-5.png',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/014-Pope-Dionysius/.album.jpg?m=1419425341',
     name: 'البابا ديونسيوس',
     reign: '246 - 264 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -280,7 +280,7 @@ const popes = [
   },
 {
     id: 17,
-  image: 'assets/images/pope-6.png',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/017-Saint-Peter-seal-of-Martyrs/.album.jpg?m=1419425341',
     name: 'البابا بطرس الأول',
     reign: '302 - 311 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -305,7 +305,7 @@ const popes = [
   },
 {
     id: 19,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-019.jpg',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/019-Pope-Alexander/.album.jpg?m=1419425339',
     name: 'البابا ألكسندروس الأول',
     reign: '312 - 328 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -318,7 +318,7 @@ const popes = [
   },
 {
     id: 20,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-020.jpg',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/020-St-Athanasius/.album.jpg?m=1419425341',
     name: 'البابا أثناسيوس الأول',
     reign: '328 - 373 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -355,7 +355,7 @@ const popes = [
   },
 {
     id: 23,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-023.jpg',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/023-Pope-Theophilus/.album.jpg?m=1419425341',
     name: 'البابا ثاؤفيلس',
     reign: '385 - 412 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -368,7 +368,7 @@ const popes = [
   },
 {
     id: 24,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-024.jpg',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/024-Saint-Pope-Cyril-The-Great/.album.jpg?m=1419425341',
     name: 'البابا كيرلس الأول',
     reign: '412 - 444 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -381,7 +381,7 @@ const popes = [
   },
 {
     id: 25,
-    image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-025.jpg',
+    image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/025-Saint-Pope-Dioscorus/.album.jpg?m=1419425339',
     name: 'البابا ديسقورس الأول',
     reign: '444 - 454 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -502,7 +502,7 @@ const popes = [
   },
 {
     id: 35,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-035.jpg',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/035-pope-damian/.album.jpg?m=1659014366',
     name: 'البابا دميان',
     reign: '569 - 605 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -827,7 +827,7 @@ const popes = [
   },
 {
     id: 62,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-062.jpg',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/062-Pope-Ibraam-Ibn-Zaraa/.album.jpg?m=1419425338',
     name: 'البابا ابرآم',
     reign: '975 - 979 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1416,7 +1416,7 @@ const popes = [
   },
 {
     id: 108,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-108.jpg',
+  image: null,
     name: 'البابا مرقس الثامن',
     reign: '1796 - 1809 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1430,7 +1430,7 @@ const popes = [
   },
 {
     id: 109,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-109.jpg',
+  image: null,
     name: 'البابا بطرس السابع',
     reign: '1809 - 1852 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1444,7 +1444,7 @@ const popes = [
   },
 {
     id: 110,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-110.jpg',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/110-Pope-Cyril-IV/.album.jpg?m=1419425341',
     name: 'البابا كيرلس الرابع',
     reign: '1853 - 1861 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1458,7 +1458,7 @@ const popes = [
   },
 {
     id: 111,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-111.jpg',
+  image: null,
     name: 'البابا ديمتريوس الثاني',
     reign: '1862 - 1870 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1473,7 +1473,7 @@ const popes = [
 {
     id: 112,
     name: 'البابا كيرلس الخامس',
-    image: 'assets/images/pope-112.png',
+    image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/112-Pope-Kirellos-5/.album.jpg?m=1419425341',
     reign: '1874 - 1927 م',
     birth: 'غير متوفر في المصادر المعتمدة',
     story: "112- البابا كيرلس الخامس (1874 - 1927 م.) St-Takla.org Image: Pope Cyril V - Pope Kyrillos - Pope of Alexandria and Patriarch of the See of St. Mark (112) - Arabic, Coptic and English name - Designed by Michael Ghaly for St-Takla.org, November 2019. صورة في موقع الأنبا تكلا: البابا كيرلس الخامس - بابا الإسكندرية وبطريرك الكرازة المرقسية (112) - الاسم باللغات العربية، القبطية، الإنجليزية - تصميم مايكل غالي لـ: موقع الأنبا تكلا هيمانوت، نوفمبر 2019 م. St-Takla.org Image: Pope Cyril V - Pope Kyrillos - Pope of Alexandria and Patriarch of the See of St. Mark (112) - Arabic, Coptic and English name - Designed by Michael Ghaly for St-Takla.org, November 2019. صورة في موقع الأنبا تكلا: البابا كيرلس الخامس - بابا الإسكندرية وبطريرك الكرازة المرقسية (112) - الاسم باللغات العربية، القبطية، الإنجليزية - تصميم مايكل غالي لـ: موقع الأنبا تكلا هيمانوت، نوفمبر 2019 م. * المدينة الأصلية له: تزمنت - بني سويف * الاسم قبل البطريركية: * أبونا الراهب القمص يوحنا البرموسي * أبونا الراهب القمص يوحنا الناسخ من أبناء دير: دير البرموس تاريخ التقدمة: 23 بابه 1591 للشهداء - أول نوفمبر 1874 للميلاد تاريخ النياحة: أول مسرى 1643 للشهداء - 7 أغسطس 1927 للميلاد مدة الإقامة على الكرسي: 52 سنة و9 أشهر و6 أيام مدة خلو الكرسي: سنة واحدة و4 أشهر و10 أيام محل إقامة البطريرك: المرقسية بالأزبكية محل الدفن: كنيسة مارمرقس بالأزبكية الملوك المعاصرون: إسماعيل باشا - توفيق باشا - عباس باشا الثاني - السلطان حسين - فؤاد الأول صور الأب البطريرك: صور قداسة البابا المعظم الأنبا كيرلس الخامس، بابا الإسكندرية وبطريرك الكرازة المرقسية الـ112 الأساقفة الذين رسمهم: قائمة الآباء الأساقفة الذين قام برسامتهم قداسة البابا كيرلس الخامس البطريرك رقم 112 (44 أسقفًا) [St-Takla-org--divider.png] ← اللغة الإنجليزية: Pope Cyril V of Alexandria / Abba Kyrillos V - اللغة اليونانية: Πάπας Κύριλλος Ε΄ - اللغة القبطية: ⲡⲓⲁ̀ⲅⲓⲟⲥ Ⲕⲩⲣⲓⲗⲗⲟⲥ أو .Papa Kurillou =e - اللغة الأمهرية: አባ ቄርሎስ 5ኛ. * كان راهبًا ناسكًا قديسًا بدير السيدة العذراء الشهير بالسريان بوادي النطرون ثم انتقل إلى دير البراموس وهناك رسموه قسًا ثم قمصًا. * ذاعت فضائله من علم وحلم وتقوى، فرسم بطريركًا في 23 بابه 1591 ش. * ازدادت الكنيسة في عصره بالقديسين والعلماء مثل الأنبا ابرآم مطران كرسي الفيوم حبيب الفقراء، والإيغومانس فيلوثاؤس إبراهيم رئيس الكنيسة المرقسية الكبرى، والأب العالم الجليل القمص عبد المسيح صليب البراموسي، والشماس حبيب جرجس مدير الكلية الإكليريكية. * بذل البابا أقصى جهده في النهوض بشعبه إلى أرقى مستوى، كما اهتم بطبع الكتب الكنسية وتنيَّح بسلام بعد أن قضى على كرسي البطريركية اثنتين وخمسين سنة وتسعة أشهر وستة أيام، وذلك في اليوم الأول من شهر مسرى سنة 1643 ش. صلاته تكون معنا آمين. [St-Takla-org--divider.png] السيرة كما ذكرت في كتاب السنكسار نياحة البابا القديس كيرلس الخامس بابا الإسكندرية المائة والثاني عشر (1 مسرى) وفي مثل هذا اليوم من سنة 1643 ش. (7 أغسطس سنة 1927 م.) تنيَّح الأب التقي الجليل البابا كيرلس الخامس المائة والثاني عشر من باباوات الكرازة المرقسية. ولد هذا الأب في مدينة تزمنت بمحافظة بني سويف سنة 1831 م. من أبوين تقيين فسمياه يوحنا وربياه أحسن تربية وأنشأه علي الآداب المسيحية وكان ذا ميل شديد إلى الدراسة في الكتاب المقدس وأخبار القديسين. St-Takla.org Image: Pope Cyril V of Alexandria. صورة في موقع الأنبا تكلا: البابا كيرلس الخامس، البطريرك رقم 112. St-Takla.org Image: Pope Cyril V of Alexandria. صورة في موقع الأنبا تكلا: البابا كيرلس الخامس، البطريرك رقم 112. وفي سنة 1843 م. رُسِمَ شماسًا وهو ابن اثنتي عشرة سنة فقام بخدمة الشماسية خير قيام. ولما كان ميالًا بطبعه الفطري إلى الزهد والتقشف وحب الوحدة فقد ترك العالم وقصد دير السيدة العذراء الشهير بالسريان بوادي النطرون، وهناك تتلمذ للأب الشيخ الروحي القمص جرجس الفار أب اعتراف الرهبان وعلم أبوه بمكانه فحضر إليه وأخذه ولكن حب النسك الذي كان متملكًا عليه لم يدعه يلبث قليلا فعاد إلى البرية وترهب في دير البرموس سنة 1850 م. فأحسن القيام بواجبات الرهبنة واشتهر بالنسك والعفة والحلم حتى أصبح قدوة صالحة لسائر الرهبان فرسموه قسا سنة 1851 م. ثم قمصا سنة 1852 م. وكان عدد الدير في ذلك الوقت قليلًا جدًا وإيراد الدير يكاد يكون معدومًا فكان هذا الأب يكد ويجد في نسخ الكتب وتقديمها للكنائس ويصرف ثمنها علي طلبات الرهبان من أكل وكسوة وذاعت فضائله من علم وحلم وتقوي فرسم بطريركًا في 23 بابه سنة 1591 ش. (أول نوفمبر سنة 1874 م.) باحتفال مهيب فوجه عنايته إلى الاهتمام ببناء الكنائس وتجديد الأديرة والعطف علي الفقراء والعناية بشئون الرهبان. وفي سنة 1892 م. فضل أن يُنْفَي من أن يفرط في أملاك الرهبان، كما نٌفِيَ معه الأنبا يؤنس مطران البحيرة والمنوفية ووكيل الكرازة المرقسية وقتئذ وبعد ذلك عاد الاثنان من منفاهما بإكرام واحترام زائدين. وقد ازدانت الكنيسة في عصره بالقديسين والعلماء: منهم الأب العظيم رجل الطهر والوداعة والإحسان الأنبا ابرآم مطران كرسي الفيوم (كتب تاريخه تحت اليوم الثالث من مسرى) هذا الحبر الذي بلغت فضائله حدًا بعيدًا من الذيوع والانتشار وبلغ من تناهيه في الإحسان علي الفقراء وذوى الحاجات أنه لم يكن يدخر نقودًا بل كان كل ما يقدمه له أهل الخير يوزعه علي المحتاجين وله من العجائب التي أجراها في إخراج الشياطين وشفاء المرضي الشيء الكثير. ومن العلماء الأب اللاهوتي الخطير والخطيب القدير الايغومانس فيلوثاؤس ابراهيم الطنطاوي رئيس الكنيسة المرقسية الكبرى والأب العالم الجليل والراهب الناسك الزاهد القمص عبد المسيح صليب البرموسي الذي كان ملما إلماما تاما باللغات القبطية والحبشية واليونانية والسريانية وقليل من الفرنسية والإنجليزية وقد تحلي بصبر لا يجاري في البحث والتنقيب في ثنايا الكتب الدينية فترك مؤلفات ثمينة تنطق بفضله. وقد اتخذ البابا كيرلس المرحوم حبيب جرجس الذي كان مديرًا للكية الإكليريكية شماسا له: فكرس حياته للكلية ونهض بها وساعد البابا في توسيع مبانيها بمهمشة وكان البابا يزورها ليبارك طلبتها وكان هذا الشماس واعظًا قديرًا رافق البابا في رحلاته إلى الصعيد والسودان وقام بترجمة الكتب الدينية من اللغات الأجنبية إلى العربية وأصدر مجلة الكرمة لنشر الحقائق الإيمانية بأسلوب إيجابي. وألف كتبا كثيرة منها: كتاب أسرار الكنيسة السبعة وكتاب عزاء المؤمنين وسر التقوى وغيرها وقد علم وربي أجيالا كثيرة من رجال الدين الذين نهضوا بالكنيسة وملأوا منابرها بالوعظ وإصدار المؤلفات الدينية. وقد بذل البابا البطريرك أقصي جهده في النهوض بشعبه إلى أرقي مستوي كما أهتم بطبع الكتب الكنسيَّة. وتنيَّح بسلام بعد أن قضي علي كرسي البطريركية اثنتين وخمسين سنة وتسعة أشهر وستة أيام . صلاته تكون معنا. ولربنا المجد دائمًا. آمين",
@@ -1486,7 +1486,7 @@ const popes = [
   },
 {
     id: 113,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-113.jpg',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/113-Pope-John-XIX/.album.jpg?m=1419425341',
     name: 'البابا يوأنس التاسع عشر',
     reign: '1928 - 1942 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1500,7 +1500,7 @@ const popes = [
   },
 {
     id: 114,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-114.jpg',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/114-Pope-Macarius-III/.album.jpg?m=1419425338',
     name: 'البابا مكاريوس الثالث',
     reign: '1944 - 1945 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1514,7 +1514,7 @@ const popes = [
   },
 {
     id: 115,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-115.jpg',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/115-Pope-Yousab-2/.album.jpg?m=1419425339',
     name: 'البابا يوساب الثاني',
     reign: '1946 - 1956 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1528,7 +1528,7 @@ const popes = [
   },
 {
     id: 116,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-116.jpg',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/116-H-H-Pope-Cyril-VI-Baba-Kerolos/.album.jpg?m=1419425338',
     name: 'البابا كيرلس السادس',
     reign: '1959 - 1971 م',
     birth: 'غير متوفر في المصادر المعتمدة',
@@ -1542,7 +1542,7 @@ const popes = [
   },
 {
     id: 117,
-  image: 'https://st-takla.org/Gallery/var/resizes/Words/Christian/popes-names/www-st-takla-org--coptic-pope-117.jpg',
+  image: 'https://st-takla.org/Gallery/var/thumbs/Clergy/Coptic-Popes/117-Pope-Shenouda-III/.album.jpg?m=1588004377',
     name: 'البابا شنوده الثالث',
     reign: '1971 - 2012 م',
     birth: 'غير متوفر في المصادر المعتمدة',
