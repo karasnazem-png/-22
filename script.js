@@ -57,7 +57,7 @@ function renderPopes(filterText = '') {
 
       const imageMarkup = imgUrl
         ? `<button class="image-view-button" type="button" data-image="${imgUrl}" data-title="${pope.name}" aria-label="عرض الصورة كاملة ${pope.name}" title="عرض الصورة كاملة"><img src="${imgUrl}" alt="${pope.name}" loading="lazy" /></button>`
-        : '<div class="no-photo" role="img" aria-label="لا توجد صورة متاحة">لا توجد صورة متاحة</div>';
+        : '<div class="no-photo" role="img" aria-label="كتاب مقدس">كتاب مقدس</div>';
 
       return `
     <article class="pope-card">
