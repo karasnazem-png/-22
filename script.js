@@ -5,6 +5,7 @@ const resetFiltersButton = document.getElementById('resetFilters');
 const randomPopeButton = document.getElementById('randomPope');
 const sortToggleButton = document.getElementById('sortToggle');
 const voiceSearchButton = document.getElementById('voiceSearchButton');
+const voiceDescriptionSearchButton = document.getElementById('voiceDescriptionSearchButton');
 const filterButtons = document.querySelectorAll('.filter-button');
 
 const getTotalPages = () => (Array.isArray(popeData) ? popeData.length : 0);
@@ -100,13 +101,15 @@ if (searchInput) {
   searchInput.addEventListener('input', (event) => renderPopes(event.target.value));
 }
 
-if (voiceSearchButton) {
+function setupVoiceSearch(button, mode, defaultLabel) {
+  if (!button) return;
+
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
   if (!SpeechRecognition) {
-    voiceSearchButton.disabled = true;
-    voiceSearchButton.title = 'البحث الصوتي غير مدعوم في هذا المتصفح';
-    voiceSearchButton.querySelector('span:last-child').textContent = 'غير مدعوم';
+    button.disabled = true;
+    button.title = 'البحث الصوتي غير مدعوم في هذا المتصفح';
+    button.querySelector('span:last-child').textContent = 'غير مدعوم';
   } else {
     const recognition = new SpeechRecognition();
     let recognitionTimeout;
@@ -118,8 +121,8 @@ if (voiceSearchButton) {
     recognition.addEventListener('start', () => {
       clearTimeout(recognitionTimeout);
       recognitionTimeout = setTimeout(() => recognition.abort(), 7000);
-      voiceSearchButton.classList.add('is-listening');
-      voiceSearchButton.querySelector('span:last-child').textContent = 'استمع الآن...';
+      button.classList.add('is-listening');
+      button.querySelector('span:last-child').textContent = 'استمع الآن...';
     });
 
     recognition.addEventListener('result', (event) => {
@@ -130,23 +133,24 @@ if (voiceSearchButton) {
       recognition.stop();
       const transcript = result[0].transcript.trim();
       if (!searchInput || !transcript) return;
+      setActiveMode(mode);
       searchInput.value = transcript;
       searchInput.dispatchEvent(new Event('input', { bubbles: true }));
     });
 
     recognition.addEventListener('error', (event) => {
       if (event.error === 'not-allowed' || event.error === 'service-not-allowed') {
-        voiceSearchButton.title = 'اسمح للمتصفح باستخدام الميكروفون للبحث صوتيًا';
+        button.title = 'اسمح للمتصفح باستخدام الميكروفون للبحث صوتيًا';
       }
     });
 
     recognition.addEventListener('end', () => {
       clearTimeout(recognitionTimeout);
-      voiceSearchButton.classList.remove('is-listening');
-      voiceSearchButton.querySelector('span:last-child').textContent = 'بحث صوتي';
+      button.classList.remove('is-listening');
+      button.querySelector('span:last-child').textContent = defaultLabel;
     });
 
-    voiceSearchButton.addEventListener('click', () => {
+    button.addEventListener('click', () => {
       try {
         recognition.start();
       } catch (error) {
@@ -155,6 +159,9 @@ if (voiceSearchButton) {
     });
   }
 }
+
+setupVoiceSearch(voiceSearchButton, 'name', 'بحث صوتي');
+setupVoiceSearch(voiceDescriptionSearchButton, 'story', 'بحث صوتي في الوصف');
 
 filterButtons.forEach((button) => {
   button.addEventListener('click', () => setActiveMode(button.dataset.mode));
