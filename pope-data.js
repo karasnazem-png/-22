@@ -1,4 +1,4 @@
-const sharedPopeImage = 'https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80';
+const sharedPopeImage = 'assets/images/image.png';
 const sourceUrls = [
   'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-001-Pope-Mark-the-Evangelist_.html',
   'https://st-takla.org/Saints/Coptic-Synaxarium-Orthodox-Saints-Biography-00-Coptic-Orthodox-Popes/Life-of-Coptic-Pope-002-Pope-Anianus_.html',
