@@ -51,8 +51,13 @@ function renderPopes(filterText = '') {
 
   popeResults.innerHTML = filteredPopes
     .map((pope) => {
+      const imageUrl = pope.image || 'assets/images/image.png';
+
       return `
     <article class="pope-card">
+      <div class="pope-card-image">
+        <img src="${imageUrl}" alt="${pope.name}" loading="lazy" />
+      </div>
       <div class="pope-card-body">
         <div class="pope-card-top">
           <span class="pope-number">#${pope.id}</span>
